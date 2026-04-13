@@ -2,8 +2,8 @@ import React from 'react'
 
 function Welcome() {
   return (
-    <div>
-      <div className='Main-image'></div>
+    <div className='outer-main'>
+      <div className='Main-image'>big image</div>
       <div className='welcomTo'>
         <span>Welcome To</span>
         <h1>
