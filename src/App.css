@@ -1,0 +1,44 @@
+nav{
+    border: 1px solid rgb(148, 147, 147);
+    width: 94%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3%;
+}
+ul{
+    /* border: 1px solid black; */
+    width: 421px;
+    height: 40px;
+    font-family: 1rem;
+    gap: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+}
+nav div{
+    /* border: 2px solid black; */
+      height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:yellow;
+}
+nav button{
+     height: 30px;
+     border: 1rem;
+
+}
+.logo-btn{
+    /* border: 1px solid green; */
+    width: 45%;
+    display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
