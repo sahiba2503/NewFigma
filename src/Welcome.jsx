@@ -4,14 +4,12 @@ import iphon2 from "/iPhone 15.svg"
 function Welcome() {
   return (
     <div className='outer-main'>
-      <div className='iphone-image'>
-         <img src={iphon1} alt="" className='iphon1'/>
+        <img src={iphon1} alt="" className='iphon1'/>
         <img src={iphon2} alt="" className='iphon2' />
        
 
-      </div>
+    
       <div className='welcomTo'>
-        <div className='welcom-content'>
         <span>Welcome To</span>
         <h1>
         Where innovation meets tomorrow</h1>
@@ -19,7 +17,6 @@ function Welcome() {
         <div className='outer-welcom-btn'>
         <button>Primary</button>
         <button>Secondary</button>
-        </div>
         </div>
         </div>
     </div>
