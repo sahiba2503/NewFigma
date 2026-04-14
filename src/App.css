@@ -3,19 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+#root{
+    /* border: 2px solid blue;; */
+    width: 1440px;
+}
 nav{
-    border: 1px solid rgb(148, 147, 147);
-    width: 94%;
+    /* border: 2px solid rgb(148, 147, 147); */
+    width: 100%;
+    height: 72px;
+    gap: 10px;
+    padding: 0 48px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0 3%;
 }
 ul{
     /* border: 1px solid black; */
     width: 421px;
-    height: 40px;
+    height: 20px;
     font-family: 1rem;
     gap: 40px;
     display: flex;
@@ -27,7 +33,9 @@ ul{
 }
 nav div{
     /* border: 2px solid black; */
-      height: 30px;
+    width: 170.24px;
+      height: 33.38px;
+      gap: 7.96px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,44 +43,120 @@ nav div{
     color:yellow;
 }
 nav button{
-     height: 30px;
-     border: 1rem;
+    border-radius: 8px;
+    width: 136px;
+     height: 40px;
+    gap: 8px;
+    padding: 12px;
 
 }
 .logo-btn{
     /* border: 1px solid green; */
-    width: 45%;
+    width: 55%;
     display: flex;
    flex-direction: row;
    justify-content: space-between;
    align-items: center;
 }
 .outer-main{
-    border: 1px solid red;
+    /* border: 3px solid red; */
     width: 100%;
+    height: 622px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: center;
 }
-.Main-image{
-    border: 1px solid black;
-    width: 45%;
+.iphone-image{
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    width: 55%;
     height: 594px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  margin-top: 50px;
+     position: relative;
+  
+}
+.iphone-image .iphon1{
+      /* border:2px solid red; */
+     height: 570px;
+    width: 70%;
+    position: absolute;
+    top: 26px;
+    left: 224px;
+  
+}
+.iphone-image .iphon2{
+     /* border:2px solid red; */
+    height: 390px;
+    width: 70%;
+    position: absolute;
+    top: 208px;
+    left: 4px;
+   
 }
 .welcomTo{
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    /* width: 536px; */
     width: 45%;
-    height: 494px;
-    padding-top:110px ;
+    height: 394px;
+    gap: 24px;
     display: flex;
     flex-direction: column;
 }
+.welcom-content{
+    /* border: 2px solid red; */
+    width: 536px;
+}
 .welcomTo h1{
     font-size: 3.5rem;
+}
+.outer-welcom-btn{
+/* border: 1px solid black; */
+width: 288px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.outer-welcom-btn button{
+    width: 136px;
+    height: 40px;
+    
+}
+.fourBoxes{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 144px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 88px;
+    
+}
+.fourBoxes div{
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(226, 226, 226);
+}
+.managementSection{
+    /* border: 1px solid green; */
+    width: 100%;
+    height: 288px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.managementSection div{
+    /* border: 1px solid black; */
+    text-align: center;
+    width: 378px;
+    height: 192px;
+    padding: 24px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

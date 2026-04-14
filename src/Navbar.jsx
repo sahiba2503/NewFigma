@@ -1,5 +1,5 @@
 import React from 'react'
-
+import logo from "/Logo.svg";
 function Navbar() {
   return (
     <nav>
@@ -10,7 +10,9 @@ function Navbar() {
         <li>Contact</li>
            </ul>
            <div className='logo-btn'>
-           <div>OUTLINED</div>
+           <div>
+            <img src={logo} alt="logo" />
+           </div>
            <button style={{background:"black",color:"white"}}>Download Now</button>
            </div>
            </nav>

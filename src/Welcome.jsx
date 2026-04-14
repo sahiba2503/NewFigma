@@ -1,16 +1,26 @@
 import React from 'react'
-
+import iphon1 from "/Devices (4).svg"
+import iphon2 from "/iPhone 15.svg"
 function Welcome() {
   return (
     <div className='outer-main'>
-      <div className='Main-image'>big image</div>
+      <div className='iphone-image'>
+         <img src={iphon1} alt="" className='iphon1'/>
+        <img src={iphon2} alt="" className='iphon2' />
+       
+
+      </div>
       <div className='welcomTo'>
+        <div className='welcom-content'>
         <span>Welcome To</span>
         <h1>
         Where innovation meets tomorrow</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nisi ab cumque officiis perspiciatis, unde animi quisquam itaque quo ad similique distinctio natus, eius quod maiores doloremque debitis reprehenderit veritatis.</p>
+        <div className='outer-welcom-btn'>
         <button>Primary</button>
         <button>Secondary</button>
+        </div>
+        </div>
         </div>
     </div>
   )
