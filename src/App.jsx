@@ -6,6 +6,8 @@ import StrategySec from './StrategySec'
 import Technology from './Technology'
 import GroundBreaking from './GroundBreaking'
 import LatestArticle from './LatestArticle'
+import SubscribeNew from './SubscribeNew'
+import Footer from './Footer'
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
     <StrategySec />
     <GroundBreaking />
     <LatestArticle />
+    <SubscribeNew />
+    <Footer />
     </div> 
   )
 }

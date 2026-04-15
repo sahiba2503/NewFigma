@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 #root{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 1440px;
-    height: 3500px;
+    height: 3850px;
     position: relative;
 }
 nav{
@@ -275,3 +275,85 @@ justify-content: space-between;
     width: 290px;
     height: 316px;
   }
+.borSubscribe{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 444px;
+    position: absolute;
+    top:3406px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subscribeNew{
+    border: 1px solid black;
+    width: 1240px;
+    height: 236px;
+    background-color: rgb(218, 216, 216);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    animation: left;
+    gap: 24px;
+    padding: 0 60px;
+}
+.subscribeNew button{
+    width: 136px;
+    height: 40px;
+    background-color: yellow;
+    color:black;
+    border-radius: 8px;
+}
+.BorderFooter{
+    /* border: 2px solid black; */
+   padding: 50px 100px;
+   background-color: rgb(32, 31, 31);
+   color:rgb(197, 194, 194);
+    width: 100%;
+    position: absolute;
+  top:3850px;
+}
+.innerBorderFooter{
+    /* border: 2px solid rgb(20, 251, 128); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.innerBorderFooter ul{
+    list-style: none;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     padding: 20px 0;
+}
+.footerLogos{
+    /* border: 2px solid black; */
+     width: 100%;
+     height: 40px;
+   display: flex;
+   justify-content: right;
+   align-items: center;
+   gap: 40px;
+}
+.footerLogos img{
+    /* border: 2px solid black; */
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+}
+.footerLinks{
+    /* border: 2px solid blue; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.FLinks{
+    /* border: 2px solid red; */
+    width: 310px;
+    display: flex;
+    justify-content: space-between;
+}
