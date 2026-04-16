@@ -4,17 +4,17 @@
     box-sizing: border-box;
 }
 #root{
-    /* border: 2px solid blue; */
+    border: 2px solid blue;
     width: 1440px;
     height: 3850px;
     position: relative;
 }
 nav{
-    /* border: 5px solid rgb(148, 147, 147); */
-    width: 100%;
-    height: 72px;
+    border: 5px solid rgb(148, 147, 147);
+     width: 100%;
+    /* height: 72px; */
     gap: 10px;
-    padding: 0 48px;
+    padding: 1% 3%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -24,9 +24,10 @@ nav{
     right: 0;
 
 }
-ul{
-    /* border: 1px solid black; */
-    width: 421px;
+nav ul{
+    border: 1px solid black;
+    /* width: 421px; */
+    width: 29%;
     height: 20px;
     font-family: 1rem;
      display: flex;
@@ -37,12 +38,12 @@ ul{
     
 }
 ul li{
-    margin-right: 40px;
+    margin-right: 11%;
 }
 nav div{
-    /* border: 2px solid black; */
+    border: 2px solid black;
     width: 170.24px;
-      height: 33.38px;
+       height: 33.38px;
       gap: 7.96px;
     display: flex;
     justify-content: center;
@@ -52,22 +53,23 @@ nav div{
 }
 nav button{
     border-radius: 8px;
-    width: 136px;
+    /* width: 136px; */
      height: 40px;
     gap: 8px;
     padding: 12px;
 
 }
 .logo-btn{
-    /* border: 1px solid green; */
-    width: 60%;
+    border: 1px solid green;
+    /* width: 792px; */
+    width: 55%;
     display: flex;
    flex-direction: row;
    justify-content: space-between;
    align-items: center;
 }
 .outer-main{
-    /* border: 5px solid red; */
+    border: 5px solid red;
     width: 100%;
     height: 622px;
     display: flex;
@@ -79,37 +81,38 @@ nav button{
     left: 0;
 }
 .welcomImgContent{
-    /* border: 12px solid green; */
-    width: 1232px;
+    border: 12px solid green;
+    /* width: 1232px; */
+     width: 100%;
     display: flex;
     gap: 104px;
 }
 .welcomiphon{
-    /* border: 2px solid blue; */
-    width: 464px;
+    border: 2px solid blue;
+    /* width: 464px; */
+    width: 57%;
     height: 520px;
     position: relative;
 }
 .iphon1{
-     /* border:2px solid red; */
+     border:2px solid red;
      height: 515px;
      position: absolute;
      top:0px;
-    left: 140px;   
-  
+    left: 35%;     
 }
  .iphon2{
-     /* border:2px solid blue; */
+     border:2px solid blue;
     height: 360px;
      position: absolute;
     top:155px;
-    left: -50px;
-    
+    left: 2%;    
    
 }
 .welcomContent{
-    /* border: 1px solid black; */
-    width: 664px;
+    border: 1px solid black;
+    /* width: 664px; */
+    width: 53%;
      height: 464px;
     gap: 24px;
     display: flex;
@@ -121,7 +124,7 @@ nav button{
     font-size: 3.5rem;
 }
 .outer-welcom-btn{
-/* border: 1px solid black; */
+border: 1px solid black;
 width: 288px;
 display: flex;
 flex-direction: row;
@@ -138,7 +141,7 @@ justify-content: space-between;
     background-color: yellow;
 }
 .fourBoxes{
-    /* border: 2px solid black; */
+    border: 2px solid black;
     width: 100%;
     height: 144px;
     display: flex;
@@ -151,14 +154,14 @@ justify-content: space-between;
     
 }
 .fourBoxes div{
-    /* border: 1px solid black; */
+    border: 1px solid black;
     border-radius: 8px;
     width: 80px;
     height: 80px;
     background-color: rgb(226, 226, 226);
 }
 .managementSection{
-    /* border: 5px solid green; */
+    border: 5px solid green;
     width: 100%;
     height: 288px;
     display: flex;
@@ -169,9 +172,10 @@ justify-content: space-between;
     top:860px;
 
 }
-.managementSection div{  
+.managementSection div{ 
+    border: 2px solid black; 
     text-align: center;
-    width: 378px;
+    width: 29%;
     height: 192px;
     padding: 24px 0;
     display: flex;
@@ -180,7 +184,7 @@ justify-content: space-between;
     align-items: center;
 }
 .StrategySec{
-    /* border: 2px solid red; */
+    border: 2px solid red;
     position: absolute;
     top: 1138px;
     width: 100%;
@@ -188,22 +192,23 @@ justify-content: space-between;
      padding:32px 104px 88px 104px;
 }
 .strImgCon, .TecImgCon{
-    /* border: 1px solid blue; */
-    width: 1232px;
+    border: 1px solid blue;
+    width: 100%;
     height: 464px;
     display: flex;
     gap: 104px;
 }
 .strategyImg,.technologyImg{
-    /* border: 2px solid black; */
+    border: 2px solid black;
     border-radius: 15px;
-    width: 464px;
+    /* width: 464px; */
+    width: 38.5%;
     height: 464px;
     background-color: rgb(206, 205, 205);
 }
 .strategyContent,.technologyContent{
     /* border: 2px solid green; */
-    width: 664px;
+    width: 53%;
     height: 464px;
     display: flex;
     flex-direction: column;
@@ -219,8 +224,8 @@ justify-content: space-between;
     border-radius: 8px;
 }
 .TechnologyContent{
-    /* border: 1px solid blue; */
-    height: 528px;
+    border: 1px solid blue;
+    height: 53%;
     width: 100%;
     position: absolute;
     top:1722px;
@@ -228,7 +233,7 @@ justify-content: space-between;
     padding: 32px 104px;
 }
 .graoundBreaking{
-    height: 528px;
+     height: 528px;
     width: 100%;
     position: absolute;
     top:2250px;
@@ -237,7 +242,7 @@ justify-content: space-between;
 }
 
 .outerArticle{
-    /* border: 5px solid blue; */
+    border: 5px solid blue;
     width: 100%;
     height: 612px;
     position: absolute;
@@ -249,20 +254,21 @@ justify-content: space-between;
      padding: 55px 0;
     }
   .headingArticle{
-    /* border: 2px solid green; */
-    width: 1232px;
+    border: 2px solid green;
+    width: 86%;
     height: 44px;
   }  
   .outerBorderArticles{
-    /* border: 2px solid red; */
-    width: 1232px;
+    border: 2px solid red;
+    width: 86%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   } 
-  .Articles{
-   
-    width: 290px;
+  .Articles{   
+    border: 2px solid black;
+    /* width: 290px; */
+    width: 24%;
     height: 420px;
   display: flex;
   flex-direction: column;
@@ -272,11 +278,11 @@ justify-content: space-between;
     border: 0px solid black;
     background-color: rgb(212, 212, 212);
     border-radius: 15px;
-    width: 290px;
+    width: 100%;
     height: 316px;
   }
 .borSubscribe{
-    /* border: 2px solid red; */
+    border: 2px solid red;
     width: 100%;
     height: 444px;
     position: absolute;
@@ -287,7 +293,8 @@ justify-content: space-between;
 }
 .subscribeNew{
     border: 1px solid black;
-    width: 1240px;
+    /* width: 1240px; */
+    width: 85%;
     height: 236px;
     background-color: rgb(218, 216, 216);
     border-radius: 15px;
@@ -306,8 +313,8 @@ justify-content: space-between;
     border-radius: 8px;
 }
 .BorderFooter{
-    /* border: 2px solid black; */
-   padding: 50px 100px;
+    border: 2px solid black;
+   padding: 5%;
    background-color: rgb(32, 31, 31);
    color:rgb(197, 194, 194);
     width: 100%;
@@ -315,7 +322,7 @@ justify-content: space-between;
   top:3850px;
 }
 .innerBorderFooter{
-    /* border: 2px solid rgb(20, 251, 128); */
+    border: 2px solid rgb(20, 251, 128);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -329,7 +336,7 @@ justify-content: space-between;
      padding: 20px 0;
 }
 .footerLogos{
-    /* border: 2px solid black; */
+    border: 2px solid black;
      width: 100%;
      height: 40px;
    display: flex;
@@ -338,22 +345,34 @@ justify-content: space-between;
    gap: 40px;
 }
 .footerLogos img{
-    /* border: 2px solid black; */
+    border: 2px solid black;
     width: 25px;
     height: 25px;
     border-radius: 50%;
     text-align: center;
 }
 .footerLinks{
-    /* border: 2px solid blue; */
+    border: 2px solid blue;
     width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 10px 0;
 }
 .FLinks{
-    /* border: 2px solid red; */
-    width: 310px;
+    border: 2px solid red;
+    width: 31%;
     display: flex;
     justify-content: space-between;
 }
+
+ @media (max-width: 393px) {
+    body{
+        
+    }
+     ul{
+        visibility: hidden;
+    }
+    
+     
+    
+ }
