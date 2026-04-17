@@ -6,7 +6,7 @@ function GroundBreaking() {
        <div className='strImgCon'>
       <div className='strategyImg'> </div>
       <div className='strategyContent'>
-        <h1>Strategy and Optimisation</h1>
+        <h1>222Strategy and Optimisation</h1>
         <p>USP copy Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nullam a ultrices quam. Fusce rutrum mauris quis urna semper lacinia.</p>
         <button>Label</button>
       </div>

@@ -1,6 +1,8 @@
 import React from 'react'
-import iphon1 from "/Devices (4).svg"
-import iphon2 from "/iPhone 15.svg"
+import iphon1 from "/Devices (5).svg"
+import iphon2 from "/iPhone15.svg"
+
+
 function Welcome() {
   return (
     <div className='outer-main'>
