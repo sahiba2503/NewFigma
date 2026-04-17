@@ -4,16 +4,13 @@
     box-sizing: border-box;
 }
 #root{
-    /* border: 2px solid blue; */
-    width: 1440px;
+     width: 1440px;
     height: 3850px;
     position: relative;
 }
 nav{
-    /* border: 5px solid rgb(148, 147, 147); */
      width: 100%;
-    /* height: 72px; */
-    gap: 10px;
+     gap: 10px;
     padding: 1% 3%;
     display: flex;
     flex-direction: row;
@@ -24,10 +21,15 @@ nav{
     right: 0;
 
 }
+.navList{
+    display: flex;
+}
+.navList .threeLine{
+    display: none;
+}
+
 nav ul{
-    /* border: 1px solid black; */
-    /* width: 421px; */
-    width: 29%;
+      width: 29%;
     height: 20px;
     font-family: 1rem;
      display: flex;
@@ -41,39 +43,36 @@ ul li{
     margin-right: 11%;
 }
 nav div{
-    /* border: 2px solid black; */
-    width: 170.24px;
+     width: 170.24px;
        height: 33.38px;
       gap: 7.96px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color:yellow;
-}
+    }
 nav button{
-    /* border-radius: 8px; */
-    /* width: 136px; */
-     height: 40px;
+       height: 40px;
     gap: 8px;
     padding: 12px;
 
 }
+.squareLogo{
+display: none;
+}
 .logo-btn{
-    /* border: 1px solid green; */
-    /* width: 792px; */
-    width: 55%;
+     width: 55%;
     display: flex;
    flex-direction: row;
    justify-content: space-between;
    align-items: center;
 }
 .outer-main{
-    /* border: 5px solid red; */
-    width: 100%;
+     width: 100%;
     height: 622px;
     display: flex;
     flex-direction: row;
+    justify-content: right;
      align-items: center;
      padding: 32px 104px;
     position: absolute;
@@ -81,37 +80,24 @@ nav button{
     left: 0;
 }
 .welcomImgContent{
-    /* border: 12px solid green; */
-    /* width: 1232px; */
-     width: 100%;
+     width: 50%;
     display: flex;
     gap: 104px;
 }
-.welcomiphon{
-    /* border: 2px solid blue; */
-    /* width: 464px; */
-    width: 57%;
-    height: 520px;
-    position: relative;
-}
-.iphon1{
-     /* border:2px solid red; */
+.iphon1{    
      height: 515px;
      position: absolute;
      top:0px;
-    left: 35%;     
+    left: 15%;     
 }
  .iphon2{
-     /* border:2px solid blue; */
-    height: 360px;
+     height: 360px;
      position: absolute;
     top:155px;
     left: 2%;    
    
 }
 .welcomContent{
-    /* border: 1px solid black; */
-    /* width: 664px; */
     width: 53%;
      height: 464px;
     gap: 24px;
@@ -124,7 +110,6 @@ nav button{
     font-size: 3.5rem;
 }
 .outer-welcom-btn{
-/* border: 1px solid black; */
 width: 288px;
 display: flex;
 flex-direction: row;
@@ -141,7 +126,6 @@ justify-content: space-between;
     background-color: yellow;
 }
 .fourBoxes{
-    /* border: 2px solid black; */
     width: 100%;
     height: 144px;
     display: flex;
@@ -154,14 +138,12 @@ justify-content: space-between;
     
 }
 .fourBoxes div{
-    /* border: 1px solid black; */
-    border-radius: 8px;
+     border-radius: 8px;
     width: 80px;
     height: 80px;
     background-color: rgb(226, 226, 226);
 }
 .managementSection{
-    /* border: 5px solid green; */
     width: 100%;
     height: 288px;
     display: flex;
@@ -173,7 +155,6 @@ justify-content: space-between;
 
 }
 .managementSection div{ 
-    /* border: 2px solid black;  */
     text-align: center;
     width: 29%;
     height: 192px;
@@ -184,30 +165,26 @@ justify-content: space-between;
     align-items: center;
 }
 .StrategySec{
-    /* border: 2px solid red; */
-    position: absolute;
+     position: absolute;
     top: 1138px;
     width: 100%;
      /* padding:32px 104px 88px 104px; */
        padding:32px 104px;
 }
 .strImgCon, .TecImgCon{
-    /* border: 1px solid blue; */
     width: 100%;
     display: flex;
     gap: 104px;
 }
 
 .strategyImg,.technologyImg{
-    /* border: 2px solid black; */
     border-radius: 15px;
     width: 38.5%;
     height: 464px;
     background-color: rgb(206, 205, 205);
 }
-.strategyContent,.technologyContent{
-    /* border: 12px solid green; */
-    width: 53%;
+.strategyContent,.technologyCont{
+     width: 53%;
     height: 464px;
     display: flex;
     flex-direction: column;
@@ -215,7 +192,7 @@ justify-content: space-between;
     align-items: right;
     justify-content: center;
 }
-.strategyContent button, .technologyContent button{
+.strategyContent button, .technologyCont button{
     width: 136px;
     height: 40px;
     background-color: black;
@@ -223,15 +200,13 @@ justify-content: space-between;
     border-radius: 8px;
 }
 .TechnologyContent{
-    /* border: 10px solid blue; */
-     width: 100%;
+    width: 100%;
     position: absolute;
     top:1700px;
     left: 0;
     padding: 32px 104px;
 }
 .graoundBreaking{
-     /* border: 10px solid brown; */
      width: 100%;
     position: absolute;
     top:2280px;
@@ -240,8 +215,7 @@ justify-content: space-between;
 }
 
 .outerArticle{
-    /* border: 5px solid blue; */
-    width: 100%;
+     width: 100%;
     height: 612px;
     position: absolute;
     top:2860px;
@@ -252,35 +226,30 @@ justify-content: space-between;
      padding: 55px 0;
     }
   .headingArticle{
-    /* border: 2px solid green; */
     width: 86%;
     height: 44px;
   }  
   .outerBorderArticles{
-    /* border: 2px solid red; */
     width: 86%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   } 
   .Articles{   
-    /* border: 2px solid black; */
-     width: 24%;
+    width: 24%;
     height: 420px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   } 
   .articleImg{
-    /* border: 0px solid black; */
-    background-color: rgb(212, 212, 212);
+     background-color: rgb(212, 212, 212);
     border-radius: 15px;
     width: 100%;
     height: 316px;
   }
 .borSubscribe{
-    /* border: 2px solid red; */
-    width: 100%;
+     width: 100%;
     position: absolute;
     top:3540px;
     display: flex;
@@ -307,8 +276,7 @@ justify-content: space-between;
     border-radius: 8px;
 }
 .BorderFooter{
-    /* border: 2px solid black; */
-   padding: 5%;
+  padding: 5%;
    background-color: rgb(32, 31, 31);
    color:rgb(197, 194, 194);
     width: 100%;
@@ -316,7 +284,6 @@ justify-content: space-between;
   top:3850px;
 }
 .innerBorderFooter{
-    /* border: 2px solid rgb(20, 251, 128); */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -330,7 +297,6 @@ justify-content: space-between;
      padding: 20px 0;
 }
 .footerLogos{
-    /* border: 2px solid black; */
      width: 100%;
      height: 40px;
    display: flex;
@@ -339,21 +305,18 @@ justify-content: space-between;
    gap: 40px;
 }
 .footerLogos img{
-    /* border: 2px solid black; */
-    width: 25px;
+     width: 25px;
     height: 25px;
     border-radius: 50%;
     text-align: center;
 }
 .footerLinks{
-    /* border: 2px solid blue; */
     width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 10px 0;
 }
 .FLinks{
-    /* border: 2px solid red; */
     width: 31%;
     display: flex;
     justify-content: space-between;
@@ -378,54 +341,125 @@ justify-content: space-between;
         width: 100%;
     }
     .outer-main{
-        padding: 0;
-        height: 1010px;
-        top:200px;
+        height: 738px;
+        top:48px;
        
     }
     .welcomImgContent{
         padding: 0;
-      
-        
+             
     }
     .fourBoxes{
-         top:1200px;
+         top:786px;
     }
     .managementSection{
-        top:1300px;
+         height: 552px;
+        display: block;
+        top:930px;
+    }
+    .managementSection div{
+        font-size: 50px;
+        width: 100%;
     }
     .StrategySec{
-        top:1530px;
+         padding: 24px 43px;
+          height: 572px;
+        top:1490px;
     }
     .strImgCon, .TecImgCon{
-        display: block;
+          display: block;
     }
     .strategyImg,.technologyImg {
         width: 100%;
+        height: 224px;
     }
-    .strategyContent,.technologyContent{
+    .strategyContent,.technologyCont{
+        height: 265px;
         width: 100%;
-
+          padding: 24px 43px;
     }
 
      .TechnologyContent{      
-         top:2550px;
-         
+         top:2054px;
+          padding: 24px 43px;
      }
 .graoundBreaking{
-    top:3550px;
+    top:2626px;
+     padding: 24px 43px;
 }
 .outerArticle{
-         top:4000px;
+display: none;
 }
-.outerArticle{
-    top:4590px;
-}
+
 .borSubscribe{
-  top:5200px;   
+  top:3198px; 
+  text-align: center;  
+  height: 305px;
+}
+.borSubscribe button{
+    width: 100%;
 }
 .BorderFooter{
-    top:5500px;
+    top:3500px;
 }
-    
+.fourBoxes{
+   gap:0;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.fourBoxes div:first-child{
+   display: none;
+}
+.squareLogo{
+   display: block;
+}
+.rectangularLogo{
+    display: none;
+}
+.navList .threeLine{
+    display: block;
+}
+
+ .welcomImgContent{
+     width: 100%;
+    height: 100%;
+ }
+.welcometoWhere{
+    width: 84%;
+    text-align: center;
+    height: 136px;
+    position: absolute;
+    top:48px;
+}
+.WelcomeLorem{
+    width: 84%;
+    height: 80px;
+    position: absolute;
+    top:570px;
+}
+.iphon1{
+    height: 318px;
+    top:246px;
+     left: 40%;
+}
+.iphon2{
+    height: 240px;
+    top:330px;
+     left: 10%;
+}
+.outer-welcom-btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.outer-welcom-btn button{
+    width: 40%;
+
+} 
+.welcometoWhere h1{
+font-size: 70px;
+}
+ 
+
  }
