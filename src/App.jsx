@@ -17,7 +17,7 @@ function App() {
       <Boxes />
     <StrategySec />
     <Technology />
-    <StrategySec />
+    {/* <StrategySec /> */}
     <GroundBreaking />
     <LatestArticle />
     <SubscribeNew />

@@ -95,14 +95,14 @@ nav button{
     position: relative;
 }
 .iphon1{
-     border:2px solid red;
+     /* border:2px solid red; */
      height: 515px;
      position: absolute;
      top:0px;
     left: 35%;     
 }
  .iphon2{
-     border:2px solid blue;
+     /* border:2px solid blue; */
     height: 360px;
      position: absolute;
     top:155px;
@@ -141,7 +141,7 @@ justify-content: space-between;
     background-color: yellow;
 }
 .fourBoxes{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 100%;
     height: 144px;
     display: flex;
@@ -154,14 +154,14 @@ justify-content: space-between;
     
 }
 .fourBoxes div{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 8px;
     width: 80px;
     height: 80px;
     background-color: rgb(226, 226, 226);
 }
 .managementSection{
-    border: 5px solid green;
+    /* border: 5px solid green; */
     width: 100%;
     height: 288px;
     display: flex;
@@ -173,7 +173,7 @@ justify-content: space-between;
 
 }
 .managementSection div{ 
-    border: 2px solid black; 
+    /* border: 2px solid black;  */
     text-align: center;
     width: 29%;
     height: 192px;
@@ -188,13 +188,13 @@ justify-content: space-between;
     position: absolute;
     top: 1138px;
     width: 100%;
-    height: 584px;
+    /* height: 584px; */
      padding:32px 104px 88px 104px;
 }
 .strImgCon, .TecImgCon{
     border: 1px solid blue;
     width: 100%;
-    height: 464px;
+    /* height: 464px; */
     display: flex;
     gap: 104px;
 }
@@ -207,7 +207,7 @@ justify-content: space-between;
     background-color: rgb(206, 205, 205);
 }
 .strategyContent,.technologyContent{
-    /* border: 2px solid green; */
+    border: 12px solid green;
     width: 53%;
     height: 464px;
     display: flex;
@@ -224,7 +224,7 @@ justify-content: space-between;
     border-radius: 8px;
 }
 .TechnologyContent{
-    border: 1px solid blue;
+    border: 10px solid blue;
     height: 53%;
     width: 100%;
     position: absolute;
@@ -242,7 +242,7 @@ justify-content: space-between;
 }
 
 .outerArticle{
-    border: 5px solid blue;
+    /* border: 5px solid blue; */
     width: 100%;
     height: 612px;
     position: absolute;
@@ -254,19 +254,19 @@ justify-content: space-between;
      padding: 55px 0;
     }
   .headingArticle{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 86%;
     height: 44px;
   }  
   .outerBorderArticles{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 86%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   } 
   .Articles{   
-    border: 2px solid black;
+    /* border: 2px solid black; */
     /* width: 290px; */
     width: 24%;
     height: 420px;
@@ -282,7 +282,7 @@ justify-content: space-between;
     height: 316px;
   }
 .borSubscribe{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100%;
     height: 444px;
     position: absolute;
@@ -292,7 +292,7 @@ justify-content: space-between;
     align-items: center;
 }
 .subscribeNew{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* width: 1240px; */
     width: 85%;
     height: 236px;
@@ -313,7 +313,7 @@ justify-content: space-between;
     border-radius: 8px;
 }
 .BorderFooter{
-    border: 2px solid black;
+    /* border: 2px solid black; */
    padding: 5%;
    background-color: rgb(32, 31, 31);
    color:rgb(197, 194, 194);
@@ -322,7 +322,7 @@ justify-content: space-between;
   top:3850px;
 }
 .innerBorderFooter{
-    border: 2px solid rgb(20, 251, 128);
+    /* border: 2px solid rgb(20, 251, 128); */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -336,7 +336,7 @@ justify-content: space-between;
      padding: 20px 0;
 }
 .footerLogos{
-    border: 2px solid black;
+    /* border: 2px solid black; */
      width: 100%;
      height: 40px;
    display: flex;
@@ -345,21 +345,21 @@ justify-content: space-between;
    gap: 40px;
 }
 .footerLogos img{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 25px;
     height: 25px;
     border-radius: 50%;
     text-align: center;
 }
 .footerLinks{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 10px 0;
 }
 .FLinks{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 31%;
     display: flex;
     justify-content: space-between;
@@ -372,7 +372,66 @@ justify-content: space-between;
      ul{
         visibility: hidden;
     }
-    
-     
+    .welcomImgContent{
+        display: block;
+        
+    }
+    .welcomiphon{
+        width: 100%;
+    }
+    .iphon1 img{
+        
+        width: 100%;
+    }
+    .welcomContent{
+        border: 12px solid blue;
+        width: 100%;
+    }
+    .outer-main{
+        padding: 0;
+        height: 1010px;
+        top:200px;
+       
+    }
+    .welcomImgContent{
+        border: 19px solid green;
+        padding: 0;
+      
+        
+    }
+    .fourBoxes{
+        border: 1px solid black;
+        top:1200px;
+    }
+    .managementSection{
+        top:1300px;
+    }
+    .StrategySec{
+        top:1530px;
+    }
+    .strImgCon, .TecImgCon{
+        display: block;
+    }
+    .strategyImg,.technologyImg {
+        width: 100%;
+    }
+    .strategyContent,.technologyContent{
+        width: 100%;
+
+    }
+    /* .TechnologyContent{
+        top:3150px
+    } */
+     .TechnologyContent{      
+         top:2500px;
+     }
+.graoundBreaking{
+    border: 2px solid rgb(27, 9, 2);
+    top:3800px;
+}
+.outerArticle{
+    border: 9px solid yellow;
+     top:4000px;
+}
     
  }
