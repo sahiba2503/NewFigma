@@ -85,21 +85,9 @@ display: none;
     display: flex;
     gap: 104px;
 }
-/* .iphon1{    
-     height: 515px;
-     position: absolute;
-     top:0px;
-    left: 15%;     
-}
- .iphon2{
-     height: 360px;
-     position: absolute;
-    top:155px;
-    left: 2%;    
-   
-} */
+
  .iphon1 {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 339px;
     /* width: 15%; */
     height: 630px;
@@ -113,7 +101,7 @@ display: none;
 }
 
 .iphon2 {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 339px;
     height: 427px;
     position: absolute;
@@ -359,15 +347,7 @@ justify-content: space-between;
     .welcomiphon{
         width: 100%;
     }
-    /* .iphon1 img{
-        
-        width: 100%;
-    }
-     .iphon2 img{
-        
-        width: 100%;
-    } */
-    .welcomContent{
+       .welcomContent{
         width: 100%;
     }
     .outer-main{
@@ -380,12 +360,12 @@ justify-content: space-between;
              
     }
     .fourBoxes{
-         top:786px;
+         top:1016px;
     }
     .managementSection{
          height: 552px;
         display: block;
-        top:930px;
+        top:1140px;
     }
     .managementSection div{
         font-size: 50px;
@@ -394,7 +374,7 @@ justify-content: space-between;
     .StrategySec{
          padding: 24px 43px;
           height: 572px;
-        top:1490px;
+        top:1700px;
     }
     .strImgCon, .TecImgCon{
           display: block;
@@ -410,11 +390,11 @@ justify-content: space-between;
     }
 
      .TechnologyContent{      
-         top:2054px;
+         top:2254px;
           padding: 24px 43px;
      }
 .graoundBreaking{
-    top:2626px;
+    top:2826px;
      padding: 24px 43px;
 }
 .outerArticle{
@@ -422,7 +402,7 @@ display: none;
 }
 
 .borSubscribe{
-  top:3198px; 
+  top:3298px; 
   text-align: center;  
   height: 305px;
 }
@@ -430,7 +410,7 @@ display: none;
     width: 100%;
 }
 .BorderFooter{
-    top:3500px;
+    top:3600px;
 }
 .fourBoxes{
    gap:0;
@@ -463,47 +443,33 @@ display: none;
     top:48px;
 }
 .WelcomeLorem{
+    /* border: 2px solid red; */
+    background-color: white;
     width: 84%;
     height: 80px;
     position: absolute;
-    top:570px;
+    top:880px;
 }
-/* .iphon1{
-    border: 2px solid red;
-    height: 318px;
-    top:246px;
-     left: 40%;
-}
-.iphon2{
-    height: 240px;
-    top:330px;
-     left: 10%;
-} */
  .iphon1 {
- width: 170px;
+ /* width: 170px; */
     width: 40%;
-    /* height: 346px; */
     height: 100%;
     position: absolute;
-    top: 116px;
-    left: 50%;
-    background-image: url('/iPhone15.svg');
-    background-size: cover;
+    top: 196px;
+    left: 40%;
+   background-size: cover;
     background-position: center;
-    /* background-image: url('/Devices (5).svg'); */
-   
+  
 }
 
 .iphon2 {
-    width: 170px;
+    /* width: 170px; */
     width: 40%;
-    /* height: 346px; */
-    height: 100%;
+     height: 78%;
     position: absolute;
-    top: 316px;
-    left: 19%;
-    background-image: url('/iPhone15.svg');
-    background-size: cover;
+    top: 370px;
+    left: 15%;
+     background-size: cover;
     background-position: center;
 }
 .outer-welcom-btn{
