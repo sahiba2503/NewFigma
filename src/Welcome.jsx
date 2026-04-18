@@ -1,6 +1,6 @@
 import React from 'react'
-import iphon1 from "/Devices (5).svg"
-import iphon2 from "/iPhone15.svg"
+// import iphon1 from "/Devices (5).svg"
+// import iphon2 from "/iPhone15.svg"
 
 
 
@@ -8,10 +8,8 @@ function Welcome() {
   return (
     <div className='outer-main'>
       <div className='welcomImgContent'>
-      {/* <div className="welcomiphon"> */}
-        <img src={iphon1} alt="" className='iphon1'/>
-        <img src={iphon2} alt="" className='iphon2' />
-       {/* </div>     */}
+     <div className="iphon1"></div>
+<div className="iphon2"></div>
       <div className='welcomContent'>
         <div className='welcometoWhere'>
         <span>Welcome To</span>
