@@ -100,10 +100,11 @@ display: none;
 } */
  .iphon1 {
     border: 2px solid red;
-    width: 324px;
-    height: 657px;
+    width: 339px;
+    /* width: 15%; */
+    height: 630px;
     position: absolute;
-    top: 126px;
+    top: 0px;
     left: 324px;
     background-image: url('/Devices (5).svg');
     background-size: cover;       /* 🔥 important */
@@ -113,10 +114,10 @@ display: none;
 
 .iphon2 {
     border: 2px solid black;
-    width: 324px;
-    height: 657px;
+    width: 339px;
+    height: 427px;
     position: absolute;
-    top: 308px;
+    top: 208px;
     left: 104px;
     background-image: url('/iPhone15.svg');
     background-size: cover;
@@ -358,10 +359,14 @@ justify-content: space-between;
     .welcomiphon{
         width: 100%;
     }
-    .iphon1 img{
+    /* .iphon1 img{
         
         width: 100%;
     }
+     .iphon2 img{
+        
+        width: 100%;
+    } */
     .welcomContent{
         width: 100%;
     }
@@ -475,29 +480,28 @@ display: none;
      left: 10%;
 } */
  .iphon1 {
-    border: 2px solid red;
-    width: 171px;
-    width: 50%;
-    height: 346px;
-    height: 100%;
-    position: absolute;
-    top: 20px;
-     /* left: 136px; */
-    left:40%;
-    background-image: url('/Devices (5).svg');
-    background-size: cover;      
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.iphon2 {
-    width: 170px;
-    width: 50%;
+ width: 170px;
+    width: 40%;
     /* height: 346px; */
     height: 100%;
     position: absolute;
     top: 116px;
-    left: 18px;
+    left: 50%;
+    background-image: url('/iPhone15.svg');
+    background-size: cover;
+    background-position: center;
+    /* background-image: url('/Devices (5).svg'); */
+   
+}
+
+.iphon2 {
+    width: 170px;
+    width: 40%;
+    /* height: 346px; */
+    height: 100%;
+    position: absolute;
+    top: 316px;
+    left: 19%;
     background-image: url('/iPhone15.svg');
     background-size: cover;
     background-position: center;
