@@ -24,24 +24,29 @@ nav{
 }
 .navList{
     display: flex;
+    
 }
 .navList .threeLine{
+    width: 10%;
     display: none;
-}
+   }
 
+nav .navList{
+     width: 30%;
+}
 nav ul{
-      width: 29%;
+     width: 90%;
     height: 20px;
     font-family: 1rem;
      display: flex;
     flex-direction: row;
-    justify-content: left;
-    align-items: center;
+    justify-content: space-between;
+    /* align-items: center; */
     list-style: none;
     
 }
-ul li{
-    margin-right: 11%;
+ul li a{
+    text-decoration: none;
 }
 nav div{
      width: 170.24px;
@@ -336,10 +341,36 @@ justify-content: space-between;
     justify-content: space-between;
 }
 
- @media (max-width: 393px) {
-        ul{
-        visibility: hidden;
+ @media (max-width: 393px)
+  {
+    
+nav .navList{
+display: block;
+z-index: 1;
+}
+.navList ul{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ height: 60vh;
+ background-color: black;
+  display: none;
+
+ }
+.navList ul li{
+    padding: 20px 0;
+    border: 1px solid blue;
+}
+       
+    .navList ul li a{
+        color:white;
+        text-decoration: none;
+        font-size: 30px;
+    } 
+    nav ul.open{
+        display: flex;
     }
+
     .welcomImgContent{
         display: block;
         
