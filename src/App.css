@@ -518,3 +518,91 @@ font-size: 70px;
  
 
  }
+ .Aboutcontainer{
+    border: 2px solid red;
+    width: 100%;
+    position: absolute;
+    top:72px;
+    padding: 88px 104px;
+ }
+ .outerborder{
+    border: 5px solid green;
+    width: 1232px;
+     display: flex;
+     gap: 104px;
+ }
+ .AboutImage{
+    border: 2px solid black;
+    width: 632px;
+    height: 720px;
+   display: flex;
+   justify-content: space-between;
+ }
+ .AboutContent{
+    border: 2px solid green;
+    width: 496px;
+    height: 672px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+ }
+ .firstimag{
+    border: 2px solid blue;
+    border-radius: 17px;
+    width: 300px;
+    height: 630px;
+    margin-top: 88px;
+    background-image: url("1PlaceholderImages (2).svg");
+     background-size: cover;      
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(221, 218, 218);
+    
+ }
+ .secondimag{
+    border: 2px solid black;
+    width: 300px;
+    height: 630px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ }
+ .topimage , .bottomimage{
+    border: 2px solid green;
+     border-radius: 17px;
+    width: 300px;
+    height: 300px;
+    background-image: url("1PlaceholderImages (2).svg");
+     background-size: cover;      
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(221, 218, 218);
+ }
+ .aboutheading{
+    border: 2px solid blue;
+    width: 496px;
+    height: 268px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+  .aboutheading h1{
+    font-size: 50px;
+  }
+    .aboutheading p{
+    font-size: 19px;
+  }
+  .AboutContent ul{
+    list-style: none;
+    border: 2px solid red;
+    width: 496px;
+    height: 146px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+        }
+    .AboutContent ul li{
+        font-size: 23px;
+        
+    }
