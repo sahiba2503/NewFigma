@@ -359,7 +359,7 @@ z-index: 1;
  }
 .navList ul li{
     padding: 20px 0;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
        
     .navList ul li a{
@@ -519,28 +519,27 @@ font-size: 70px;
 
  }
  .Aboutcontainer{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100%;
     position: absolute;
     top:72px;
     padding: 88px 104px;
  }
  .outerborder{
-    border: 5px solid green;
-    width: 1232px;
-     display: flex;
-     gap: 104px;
+    /* border: 5px solid green; */
+      display: flex;
+      justify-content: space-between;
  }
  .AboutImage{
-    border: 2px solid black;
-    width: 632px;
+    /* border: 5px solid black; */
+      width: 54%;
     height: 720px;
    display: flex;
    justify-content: space-between;
  }
  .AboutContent{
-    border: 2px solid green;
-    width: 496px;
+    /* border: 2px solid green; */
+     width: 35%;
     height: 672px;
     padding: 0;
     display: flex;
@@ -548,9 +547,9 @@ font-size: 70px;
     justify-content: space-evenly;
  }
  .firstimag{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     border-radius: 17px;
-    width: 300px;
+     width: 48%;
     height: 630px;
     margin-top: 88px;
     background-image: url("1PlaceholderImages (2).svg");
@@ -561,17 +560,17 @@ font-size: 70px;
     
  }
  .secondimag{
-    border: 2px solid black;
-    width: 300px;
+    /* border: 2px solid black; */
+       width: 48%;
     height: 630px;
  display: flex;
  flex-direction: column;
  justify-content: space-between;
  }
  .topimage , .bottomimage{
-    border: 2px solid green;
+    /* border: 2px solid green; */
      border-radius: 17px;
-    width: 300px;
+    width: 100%;
     height: 300px;
     background-image: url("1PlaceholderImages (2).svg");
      background-size: cover;      
@@ -580,23 +579,23 @@ font-size: 70px;
     background-color: rgb(221, 218, 218);
  }
  .aboutheading{
-    border: 2px solid blue;
-    width: 496px;
+    /* border: 2px solid blue; */
+     width: 100%;
     height: 268px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
  }
   .aboutheading h1{
-    font-size: 50px;
+    font-size: 40px;
   }
     .aboutheading p{
-    font-size: 19px;
+    font-size: 21px;
   }
   .AboutContent ul{
     list-style: none;
-    border: 2px solid red;
-    width: 496px;
+    /* border: 2px solid red; */
+      width: 100%;
     height: 146px;
     display: flex;
     flex-direction: column;
