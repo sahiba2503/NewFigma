@@ -632,3 +632,47 @@ font-size: 70px;
     height: 616px;
   
 }
+.aboutOurTeam{
+    /* border: 2px solid red; */
+    position: absolute;
+    top:1720px;
+    width: 100%;
+    /* height: 670px; */
+    padding: 8px 104px 32px 104px;
+
+}
+.ourTeamHeading{
+    /* border: 2px solid black; */
+    width: 1232px;
+    height: 152px;
+    font-size: 35px;
+}
+.ourTeamBranches {
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.ourTeamBranches .ourTeambox{
+    /* border: 2px solid black; */
+     border-radius: 17px;
+    width: 290px;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.branchephoto{
+    /* border: 2px solid red; */
+    border-radius: 15px;
+    width: 100%;
+    height: 290px;
+    background-color: rgb(221, 221, 221);
+}
+ .ourTeambox button{
+    width: 50%;
+    height: 40px;
+    margin-left: 25%;
+ }
