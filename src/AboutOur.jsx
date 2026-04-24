@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 function AboutOur() {
   return (
     <div className='aboutOurTeam'>
@@ -8,29 +9,44 @@ function AboutOur() {
         </div>
        <div className="ourTeamBranches">
         <div className="ourTeambox">
-            <div className="branchephoto"></div>
+            <div className="branchephoto">
+             
+            </div>
+            <div className="aboutBranchDetail">
             <h4>First Last</h4>
             <strong>job title/Role/position</strong>
             <button> Contact Name</button>
+            </div>
         </div>
         <div className="ourTeambox">
-              <div className="branchephoto"></div>
+              <div className="branchephoto">
+                
+              </div>
+                <div className="aboutBranchDetail">
+                          <h4>First Last</h4>
+            <strong>job title/Role/position</strong>
+            
+            <button> Contact Name</button>
+        </div></div>
+        <div className="ourTeambox">
+              <div className="branchephoto">
+               
+              </div>
+               <div className="aboutBranchDetail">
                           <h4>First Last</h4>
             <strong>job title/Role/position</strong>
             <button> Contact Name</button>
+            </div>
         </div>
         <div className="ourTeambox">
-              <div className="branchephoto"></div>
+              <div className="branchephoto">
+                 
+              </div>
+               <div className="aboutBranchDetail">
                           <h4>First Last</h4>
             <strong>job title/Role/position</strong>
             <button> Contact Name</button>
-        </div>
-        <div className="ourTeambox">
-              <div className="branchephoto"></div>
-                          <h4>First Last</h4>
-            <strong>job title/Role/position</strong>
-            <button> Contact Name</button>
-        </div>
+        </div></div>
        </div>
     </div>
   )

@@ -633,19 +633,24 @@ font-size: 70px;
   
 }
 .aboutOurTeam{
-    /* border: 2px solid red; */
+    border: 2px solid red;
     position: absolute;
     top:1720px;
     width: 100%;
-    /* height: 670px; */
+    height: 670px;
     padding: 8px 104px 32px 104px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 
 }
 .ourTeamHeading{
-    /* border: 2px solid black; */
-    width: 1232px;
-    height: 152px;
-    font-size: 35px;
+    border: 2px solid black;
+    width: 70%;
+    /* height: 132px; */
+    text-align: center;
+    font-size: 40px;
 }
 .ourTeamBranches {
     /* border: 2px solid blue; */
@@ -655,7 +660,7 @@ font-size: 70px;
    
 }
 .ourTeamBranches .ourTeambox{
-    /* border: 2px solid black; */
+    border: 2px solid black;
      border-radius: 17px;
     width: 290px;
     height: 430px;
@@ -663,16 +668,50 @@ font-size: 70px;
     flex-direction: column;
     text-align: center;
     justify-content: center;
+
 }
 .branchephoto{
-    /* border: 2px solid red; */
+    border: 2px solid red;
     border-radius: 15px;
     width: 100%;
     height: 290px;
     background-color: rgb(221, 221, 221);
+    background-image: url(Avatars.svg);
 }
  .ourTeambox button{
     width: 50%;
-    height: 40px;
+    height: 30px;
     margin-left: 25%;
+    border-radius: 9px;
+    background-color: black;
+    color:white;
+ }
+ .aboutBranchDetail{
+    border: 2px solid blue;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+ }
+ .aboutStbscribe{
+      width: 100%;
+    position: absolute;
+    top:2440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .AboutBorderFooter{
+    border: 2px solid red;
+      padding: 5%;
+   background-color: rgb(32, 31, 31);
+   color:rgb(197, 194, 194);
+    width: 100%;
+    position: absolute;
+  top:2750px;
+ }
+ .outerBorderAboutpage{
+    border: 2px solid blue;
+    height: 3100px;
  }
