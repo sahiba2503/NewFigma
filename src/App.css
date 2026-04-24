@@ -6,9 +6,8 @@
 }
 #root{
      width: 1440px;
-    height: 3850px;
-    position: relative;
-}
+   }
+
 nav{
      width: 100%;
      gap: 10px;
@@ -633,7 +632,7 @@ font-size: 70px;
   
 }
 .aboutOurTeam{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     position: absolute;
     top:1720px;
     width: 100%;
@@ -646,7 +645,7 @@ font-size: 70px;
 
 }
 .ourTeamHeading{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 70%;
     /* height: 132px; */
     text-align: center;
@@ -660,7 +659,7 @@ font-size: 70px;
    
 }
 .ourTeamBranches .ourTeambox{
-    border: 2px solid black;
+    /* border: 2px solid black; */
      border-radius: 17px;
     width: 290px;
     height: 430px;
@@ -671,7 +670,7 @@ font-size: 70px;
 
 }
 .branchephoto{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     border-radius: 15px;
     width: 100%;
     height: 290px;
@@ -687,7 +686,7 @@ font-size: 70px;
     color:white;
  }
  .aboutBranchDetail{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 100%;
     height: 30%;
     display: flex;
@@ -703,15 +702,11 @@ font-size: 70px;
     align-items: center;
  }
  .AboutBorderFooter{
-    border: 2px solid red;
+    /* border: 2px solid red; */
       padding: 5%;
    background-color: rgb(32, 31, 31);
    color:rgb(197, 194, 194);
     width: 100%;
     position: absolute;
   top:2750px;
- }
- .outerBorderAboutpage{
-    border: 2px solid blue;
-    height: 3100px;
  }
