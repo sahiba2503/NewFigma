@@ -617,8 +617,7 @@ font-size: 70px;
     }
     .storyHeading{
         /* border: 2px solid blue; */
-        /* width: 464px; */
-        width: 32%;
+          width: 32%;
         height: 70px;
         font-size: 35px;
         text-align: right;
@@ -626,8 +625,7 @@ font-size: 70px;
     }
 .storyDetail{
     /* border: 2px solid black; */
-    /* width: 564px; */
-    width: 39%;
+      width: 39%;
     height: 616px;
   
 }
@@ -646,13 +644,14 @@ font-size: 70px;
 }
 .ourTeamHeading{
     /* border: 2px solid black; */
-    width: 70%;
+    width: 80%;
     /* height: 132px; */
     text-align: center;
     font-size: 40px;
 }
 .ourTeamBranches {
     /* border: 2px solid blue; */
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -661,7 +660,7 @@ font-size: 70px;
 .ourTeamBranches .ourTeambox{
     /* border: 2px solid black; */
      border-radius: 17px;
-    width: 290px;
+    width: 23%;
     height: 430px;
     display: flex;
     flex-direction: column;
@@ -710,3 +709,53 @@ font-size: 70px;
     position: absolute;
   top:2750px;
  }
+ @media (max-width: 393px){
+  .secondimag{
+    display: none;
+    
+  }  
+  .outerborder{
+    display: block;
+  }
+  .AboutImage{
+    display: block;
+    width: 100%;
+    
+  }
+ 
+  .Aboutcontainer{
+    border: 2px solid red;
+    padding: 0 5%;
+    margin: 0;
+    top:0;
+   
+  }
+  .firstimag{
+    width: 100%;
+  }
+  .AboutContent{
+    border: 2px solid blue;
+    display: flex;
+      width: 100%;
+  }
+  .aboutOurStory{
+    border: 2px solid black;
+    top:1500px;
+    padding: 0 5%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 1000px;
+  }
+  .storyHeading{
+    border: 2px solid red;
+    width: 100%;
+    display: block;
+  }
+  .storyDetail{
+    border: 2px solid black;
+    width: 100%;
+    height: 850px;
+  }
+}
