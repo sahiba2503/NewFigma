@@ -724,7 +724,7 @@ font-size: 70px;
   }
  
   .Aboutcontainer{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 0 5%;
     margin: 0;
     top:0;
@@ -734,12 +734,12 @@ font-size: 70px;
     width: 100%;
   }
   .AboutContent{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     display: flex;
       width: 100%;
   }
   .aboutOurStory{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     top:1500px;
     padding: 0 5%;
     margin: 0;
@@ -749,13 +749,39 @@ font-size: 70px;
     height: 1000px;
   }
   .storyHeading{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100%;
     display: block;
   }
   .storyDetail{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 100%;
     height: 850px;
+  }
+  .aboutOurTeam{
+    /* border: 2px solid blue; */
+    top:2500px;
+    padding: 0 5%;
+  }
+  .aboutStbscribe{
+    /* border: 2px solid black; */
+    top:3500px;
+  }
+  .AboutBorderFooter{
+    top:3800px
+  }
+  .ourTeamHeading{
+    width: 100%;
+    /* border: 2px solid black; */
+    font-size: 20px;
+  }
+  .ourTeamBranches{
+    /* border: 2px solid green; */
+    width: 100%;
+     /* flex-wrap: wrap; */
+  }
+  .ourTeambox{
+    width: 50%;
+
   }
 }
