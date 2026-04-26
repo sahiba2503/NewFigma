@@ -655,12 +655,19 @@ font-size: 70px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
    
+}
+.TwooutrTeambr{
+    /* border: 2px solid red; */
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
 }
 .ourTeamBranches .ourTeambox{
     /* border: 2px solid black; */
      border-radius: 17px;
-    width: 23%;
+    width: 46%;
     height: 430px;
     display: flex;
     flex-direction: column;
@@ -675,10 +682,13 @@ font-size: 70px;
     height: 290px;
     background-color: rgb(221, 221, 221);
     background-image: url(Avatars.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
  .ourTeambox button{
     width: 50%;
-    height: 30px;
     margin-left: 25%;
     border-radius: 9px;
     background-color: black;
@@ -779,9 +789,14 @@ font-size: 70px;
     /* border: 2px solid green; */
     width: 100%;
      /* flex-wrap: wrap; */
+     display: block;
   }
   .ourTeambox{
     width: 50%;
 
   }
+  .TwooutrTeambr{
+width: 100%;
+  }
+ 
 }

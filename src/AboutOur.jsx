@@ -8,6 +8,7 @@ function AboutOur() {
         <h2>Our team has a over 100 years of experience combined</h2>
         </div>
        <div className="ourTeamBranches">
+        <div className="TwooutrTeambr">
         <div className="ourTeambox">
             <div className="branchephoto">
              
@@ -28,6 +29,8 @@ function AboutOur() {
             
             <button> Contact Name</button>
         </div></div>
+        </div>
+         <div className="TwooutrTeambr">
         <div className="ourTeambox">
               <div className="branchephoto">
                
@@ -47,6 +50,7 @@ function AboutOur() {
             <strong>job title/Role/position</strong>
             <button> Contact Name</button>
         </div></div>
+        </div>
        </div>
     </div>
   )
