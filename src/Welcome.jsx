@@ -7,9 +7,11 @@ import React from 'react'
 function Welcome() {
   return (
     <div className='outer-main'>
-      <div className='welcomImgContent'>
+     <div className='welcomImgContent'>
+       <div className="iphoneImage">
      <div className="iphon1"></div>
 <div className="iphon2"></div>
+</div>
       <div className='welcomContent'>
         <div className='welcometoWhere'>
         <span>Welcome To</span>

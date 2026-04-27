@@ -73,31 +73,45 @@ display: none;
    align-items: center;
 }
 .outer-main{
+    border: 2px solid green;
      width: 100%;
     height: 622px;
     display: flex;
     flex-direction: row;
-    justify-content: right;
-     align-items: center;
-     padding: 32px 104px;
+    padding: 32px 104px;
     position: absolute;
     top:72px;
     left: 0;
+    overflow: hidden;
 }
 .welcomImgContent{
+    border: 2px solid blue;
+    height: 100%;
+    width:  100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+     overflow: hidden;
+}
+.iphoneImage{
+    border: 2px solid red;
+    width: 55%;
+    position: relative;
+    
+}
+/* .welcomImgContent{
      width: 50%;
     display: flex;
     gap: 104px;
-}
+} */
 
  .iphon1 {
     /* border: 2px solid red; */
     width: 339px;
-    /* width: 15%; */
     height: 630px;
     position: absolute;
     top: 0px;
-    left: 324px;
+    left: 230px;
     background-image: url('/Devices (5).svg');
     background-size: cover;       /* 🔥 important */
     background-position: center;
@@ -110,25 +124,28 @@ display: none;
     height: 427px;
     position: absolute;
     top: 208px;
-    left: 104px;
     background-image: url('/iPhone15.svg');
     background-size: cover;
     background-position: center;
 }
 .welcomContent{
-    width: 53%;
+    border: 2px solid red;
+    width: 40%;
      height: 464px;
     gap: 24px;
     display: flex;
     flex-direction: column;
-   align-items: right;
-   justify-content: center;
+    justify-content: space-evenly;
+   /* align-items: right; */
+   /* justify-content: center; */
 }
 .welcomTo h1{
     font-size: 3.5rem;
 }
 .outer-welcom-btn{
-width: 288px;
+    border: 2px solid red;
+width: 75%;
+margin-top: 50px;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
@@ -375,27 +392,35 @@ z-index: 1;
         
     }
     .welcomiphon{
-        width: 100%;
+        /* width: 100%; */
     }
        .welcomContent{
         width: 100%;
     }
     .outer-main{
-        height: 738px;
         top:48px;
-       
+       padding: 0;
     }
-    .welcomImgContent{
-        padding: 0;
-             
+    /* .welcomImgContent{ */
+        /* padding: 0;
+        border: 2px solid black;
+          display: block;    */
+    /* } */
+    .iphoneImage{
+        border: 5px solid black;
+        margin-top:40%;
+        height: 400px;
+        width: 100%;
+       position: relative;
     }
+
     .fourBoxes{
-         top:1016px;
+         top:670px;
     }
     .managementSection{
          height: 552px;
         display: block;
-        top:1140px;
+        top:840px;
     }
     .managementSection div{
         font-size: 50px;
@@ -404,7 +429,7 @@ z-index: 1;
     .StrategySec{
          padding: 24px 43px;
           height: 572px;
-        top:1700px;
+        top:1430px;
     }
     .strImgCon, .TecImgCon{
           display: block;
@@ -420,11 +445,11 @@ z-index: 1;
     }
 
      .TechnologyContent{      
-         top:2254px;
+         top:1970px;
           padding: 24px 43px;
      }
 .graoundBreaking{
-    top:2826px;
+    top:2526px;
      padding: 24px 43px;
 }
 .outerArticle{
@@ -432,7 +457,7 @@ display: none;
 }
 
 .borSubscribe{
-  top:3298px; 
+  top:3098px; 
   text-align: center;  
   height: 305px;
 }
@@ -440,7 +465,7 @@ display: none;
     width: 100%;
 }
 .BorderFooter{
-    top:3600px;
+    top:3400px;
 }
 .fourBoxes{
    gap:0;
@@ -463,43 +488,40 @@ display: none;
 
  .welcomImgContent{
      width: 100%;
-    height: 100%;
+    height: 550px;
+    overflow: hidden;
  }
 .welcometoWhere{
-    width: 84%;
+    width: 100%;
+    font-size: 20px;
     text-align: center;
     height: 136px;
     position: absolute;
-    top:48px;
+    top:0px;
 }
 .WelcomeLorem{
     /* border: 2px solid red; */
     background-color: white;
-    width: 84%;
-    height: 80px;
-    position: absolute;
-    top:880px;
-}
+    display: none;
+    }
  .iphon1 {
- /* width: 170px; */
-    width: 40%;
+    width: 83%;
     height: 100%;
     position: absolute;
-    top: 196px;
-    left: 40%;
+    top: 0px;
+    left: 29%;
    background-size: cover;
     background-position: center;
   
 }
 
 .iphon2 {
-    /* width: 170px; */
-    width: 40%;
-     height: 78%;
+    width: 75%;
+    height: 70%;
     position: absolute;
-    top: 370px;
-    left: 15%;
-     background-size: cover;
+    top: 120px;
+    left: -30px;
+    background-size: cover;
     background-position: center;
 }
 .outer-welcom-btn{
@@ -511,9 +533,9 @@ display: none;
     width: 40%;
 
 } 
-.welcometoWhere h1{
+/* .welcometoWhere h1{
 font-size: 70px;
-}
+} */
  
 
  }
