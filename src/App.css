@@ -400,7 +400,7 @@ z-index: 1;
     }
    
     .iphoneImage{
-        border: 5px solid black;
+        /* border: 5px solid black; */
         margin-top:40%;
         height: 400px;
         width: 100%;
@@ -411,7 +411,7 @@ z-index: 1;
          top:670px;
     }
     .managementSection{
-        border: 2px solid black;
+        /* border: 2px solid black; */
          height: 412px;
         display: flex;
         flex-direction: column;
@@ -423,7 +423,7 @@ z-index: 1;
         width: 100%;
     }
     .StrategySec{
-        border: 2px solid black;
+        /* border: 2px solid black; */
          padding: 24px 43px;
           height: 572px;
         top:1270px;
@@ -448,13 +448,13 @@ z-index: 1;
     }
 
      .TechnologyContent{  
-        border: 2px solid red;    
+        /* border: 2px solid red;     */
            top:1870px;
           
           padding: 24px 43px;
      }
 .graoundBreaking{
-    border:2px solid red;
+    /* border:2px solid red; */
     top:2426px;
     height: 600px;
     padding: 24px 43px;
