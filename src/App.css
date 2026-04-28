@@ -102,8 +102,8 @@ display: none;
 
 
  .iphon1 {
-      width: 80%;
-    height: 90%;
+      width: 70%;
+    height: 95%;
     position: absolute;
     top: 50px;
     /* left: 230px; */
@@ -116,10 +116,10 @@ display: none;
 
 .iphon2 {
     /* border: 2px solid black; */
-    width: 339px;
-    height: 427px;
-     width: 80%;
-    height: 70%;
+    /* width: 339px;
+    height: 427px; */
+     width: 70%;
+    height: 80%;
     position: absolute;
     top: 208px;
     background-image: url('/iPhone15.svg');
@@ -411,18 +411,22 @@ z-index: 1;
          top:670px;
     }
     .managementSection{
-         height: 552px;
-        display: block;
+        border: 2px solid black;
+         height: 412px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
         top:840px;
     }
-    .managementSection div{
-        font-size: 50px;
+    .managementSection div {
+         font-size: 30px;
         width: 100%;
     }
     .StrategySec{
+        border: 2px solid black;
          padding: 24px 43px;
           height: 572px;
-        top:1430px;
+        top:1270px;
     }
     .strImgCon, .TecImgCon{
           display: block;
@@ -436,14 +440,24 @@ z-index: 1;
         width: 100%;
           padding: 24px 43px;
     }
+    .strategyContent h1{
+        margin-top: 90px;
+    }
+    .technologyCont button{
+        margin-bottom: 50px;
+    }
 
-     .TechnologyContent{      
-         top:1970px;
+     .TechnologyContent{  
+        border: 2px solid red;    
+           top:1870px;
+          
           padding: 24px 43px;
      }
 .graoundBreaking{
-    top:2526px;
-     padding: 24px 43px;
+    border:2px solid red;
+    top:2426px;
+    height: 600px;
+    padding: 24px 43px;
 }
 .outerArticle{
 display: none;

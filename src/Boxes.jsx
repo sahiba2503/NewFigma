@@ -11,15 +11,15 @@ function Boxes() {
     </div>
     <div className='managementSection'>
         <div>
-            <h1>+500m</h1>            
+            <h2>+500m</h2>            
             <p>in assets under management</p>
         </div>
          <div>
-            <h1>+40m</h1>            
+            <h2>+40m</h2>            
             <p>in monthly trading volume</p>
         </div>
           <div>
-            <h1> +12</h1>           
+            <h2> +12</h2>           
             <p>years experience</p>
         </div>
     </div>
