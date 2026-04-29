@@ -1,9 +1,10 @@
 import React from 'react'
+import BlogBody from './BlogBody'
 
 function Blog() {
   return (
-    <div>
-      <h1>Hellow blog</h1>
+    <div className='BlogContainer'>
+      <BlogBody />
     </div>
   )
 }

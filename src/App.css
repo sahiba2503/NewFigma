@@ -825,3 +825,82 @@ width: 100%;
   }
  
 }
+
+.blogBodybordr{
+    border: 2px solid red;
+    width: 100%;
+    position: absolute;
+    top:100px;
+     padding: 0px 70px;
+}
+.blogArticles{
+    border: 2px solid yellowgreen;
+    display: flex;
+    justify-content: space-between;
+}
+.blogLatestArticles{
+    border:5px solid black;
+    width: 49%;
+   }
+   .latestArticlesImg{
+    border: 2px solid blue;
+    border-radius: 15px;
+    height: 300px;
+    width: 100%;
+   }
+   .latestArticlesDetail{
+    border: 2px solid red;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   }
+   .latestArticlesDetail button{
+    /* border: 2px solid red; */
+    width: 13%;
+    padding: 5px 0px;
+    border-radius: 7px;
+    margin-right: 2%;
+   }
+   .blogLatestArticles h5{
+    margin: 0.5rem 0;
+   }
+  .blogBodybordr h1{
+    margin: 1rem 0;
+  }
+  .blogGustav{
+    border: 5px solid green;
+    width: 49%;
+     }
+  .gustavchip1{
+    border: 2px solid red;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .gustavchipImg{
+    border: 2px solid black;
+    border-radius: 11px;
+    width:  48%;
+    height: 200px;
+  }
+  .gustavchipDetail{
+    border: 2px solid blue;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    gap:14px;
+  }
+  .gustavchipDetail button{
+    width: 29%;
+    padding: 0.4rem 0;
+    border-radius: 9px;
+
+  }
+  .gustavchip1{
+    margin-bottom: 2rem;
+  }
+  .blogBodybordr h4{
+    margin: 0.5rem 0;
+  }
