@@ -907,3 +907,63 @@ width: 100%;
   .blogBodybordr h4{
     margin: 0.5rem 0;
   }
+  .blogArchiveHeading{
+    /* border: 2px solid black; */
+    width: 100%;
+    position: absolute;
+    top:950px;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    padding: 0 70px;
+  }
+  .inputContainer{
+    border: 1px solid black;
+    width: 29%;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+     }
+
+  .inputContainer img{
+    /* border: 2px solid black; */
+    width: 10%;
+    height: 100%;
+  
+  }
+  .inputContainer input{
+    border: none;
+    height: 100%;
+    width: 80%;
+    padding-left: 3%;
+  }
+  .archiveFirstIreo{
+    /* border: 2px solid green; */
+    width: 32%;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .archiveImg{
+    /* border: 2px solid black; */
+    border-radius: 14px;
+    height: 200px;
+    width: 100%;
+      background-color: rgb(210, 208, 208);
+  }
+  .twoButton{
+    /* border: 2px solid red; */
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+  }
+    .twoButton button{
+      width: 45%;
+    }
+  .archiveSection{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
