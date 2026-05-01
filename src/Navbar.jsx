@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   const[menuOpen, setMenuOpen] = useState(false);
   return (
-    <nav>
+    <nav className='NaveBar'>
       <div className='navList'>
         <div  className='threeLine' onClick={()=>{setMenuOpen(!menuOpen)}}>
         <img src={lines} alt="" />

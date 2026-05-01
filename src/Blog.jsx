@@ -8,8 +8,7 @@ function Blog() {
     <div className='BlogContainer'>
       <BlogBody />
       <BlogArchive />
-      <Footer />
-    </div>
+         </div>
   )
 }
 
