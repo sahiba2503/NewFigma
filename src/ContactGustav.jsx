@@ -11,7 +11,7 @@ function ContactGustav() {
           <p>Lorem ipsum mobillangfilm haffa om betalvard transprson i retweeta aven om koscheria . Amanda Magnusson Mats Eliasson</p>
          
           <div className='inputSection'>
-            <input type="text" />
+            <input type="text" placeholder='Enter your email' />
             <button>Subscribe</button>
           </div>
           </div>
