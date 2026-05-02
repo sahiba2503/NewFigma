@@ -3,8 +3,7 @@ import ContactGustav from "./ContactGustav"
 import ContactFirstLast from "./ContactFirstLast"
 function Contact() {
   return (
-    <div>
-      
+    <div>      
       < ContactGustav />
       < ContactFirstLast />
     </div>
