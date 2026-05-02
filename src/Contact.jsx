@@ -1,9 +1,12 @@
 import React from 'react'
-
+import ContactGustav from "./ContactGustav"
+import ContactFirstLast from "./ContactFirstLast"
 function Contact() {
   return (
     <div>
-      <h1>Hello contact</h1>
+      
+      < ContactGustav />
+      < ContactFirstLast />
     </div>
   )
 }

@@ -1008,3 +1008,97 @@ width: 100%;
    }
   
 }
+.contactHeading{
+  border: 2px solid black;
+  display: flex;
+   justify-content: space-between;
+  font-size: 21px;
+}
+.contactHeading h1{
+  width: 70%;
+}
+.contactContainer p{
+  font-size: 19px;
+}
+.inputSection{
+  border: 1px solid black;
+  width: 30%;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inputSection input{
+  width: 80%;
+  height: 100%;
+  border-style: none;
+}
+.inputSection button{
+width: 20%;
+height: 80%;
+}
+.contactContainer{
+  border: 2px solid green;
+  width: 100%;
+   display: flex;
+  flex-direction: column;
+gap: 24px;
+padding: 0 3rem;
+position: absolute;
+top:100px;
+}
+
+ /* background-image: url(Avatars.svg); */
+ .contactBigImg{
+  border: 5px solid black;
+   height: 632px;
+   width: 100%;
+  border-radius: 15px;
+  background-color: rgb(216, 213, 213);
+ }
+ .moreDetaiContact{
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+ }
+ .logofirstLast{
+  border: 2px solid black;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+   background-image: url(Avatars.svg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+ }
+ .logodetail{
+  border: 2px solid black;
+ width: 23%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+ }
+ .contactDetail{
+  border: 2px solid blue;
+  position: absolute;
+  top:350px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding:  0 3rem;
+  gap: 24px;
+ }
+ .firstLastBtn{
+  border: 2px solid green;
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ }
+ .firstLastBtn button{
+  width: 30%;
+  padding: 0.4rem 0;
+ }
