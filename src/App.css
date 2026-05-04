@@ -1119,3 +1119,23 @@ margin-top: 2rem;
   height: 3rem;
 
  }
+   @media (max-width: 433px){
+    .contactHeading img{
+      display: none;
+    }
+ 
+   .moreDetaiContact .logodetail{
+    display: none;
+    }
+    .firstLastBtn
+    {
+      width: 100%;
+     justify-content: left;
+     gap:1rem;
+     
+    }
+      .firstLastBtn button{
+        width: 20%;
+        
+      }
+    }
