@@ -658,7 +658,7 @@ display: none;
 .aboutOurTeam{
     /* border: 2px solid red; */
     position: absolute;
-    top:1720px;
+    top:1970px;
     width: 100%;
     height: 670px;
     padding: 8px 104px 32px 104px;
@@ -731,7 +731,7 @@ display: none;
  .aboutStbscribe{
       width: 100%;
     position: absolute;
-    top:2440px;
+    top:2640px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -743,7 +743,7 @@ display: none;
    color:rgb(197, 194, 194);
     width: 100%;
     position: absolute;
-  top:2750px;
+  top:2950px;
  }
  @media (max-width: 393px){
   .secondimag{
@@ -918,10 +918,10 @@ width: 100%;
     padding: 0 70px;
   }
   .inputContainer{
-    /* border: 1px solid black; */
-    width: 29%;
+    border: 1px solid black;
+    width: 100%;
     height: 2rem;
-    display: flex;
+     display: flex;
     flex-direction: row;
      }
 
@@ -933,7 +933,7 @@ width: 100%;
   }
   .inputContainer input{
     border: none;
-    height: 100%;
+    height: 90%;
     width: 80%;
     padding-left: 3%;
   }
@@ -1035,8 +1035,10 @@ width: 100%;
   padding-left:1rem ;
 }
 .inputSection button{
-width: 20%;
+width: 40%;
 height: 80%;
+background-color: black;
+color:white;
 }
 .contactContainer{
   /* border: 2px solid green; */
@@ -1153,6 +1155,46 @@ margin-top: 2rem;
   flex-direction: row;
   justify-content: space-between;
  }
+ .formInputSection{
+  /* border: 2px solid red; */
+  width: 100%;
+  position: absolute;
+  top:2400px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 50px;
+}
+.contactFormImg{
+  /* border:2px solid black; */
+  width: 45%;
+  height: 500px;
+  background-color: rgb(198, 197, 197);
+  border-radius: 14px;
+ 
+}
+.contactformSection{
+  /* border: 2px solid green; */
+  width: 55%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  padding: 1rem;
+}
+.contactformSection input{
+  width: 100%;
+  height: 2.5rem;
+}
+.contactformSection textarea{
+
+ min-width: 200px;
+max-height: 200px;
+
+}
+.contactformSection button{
+  width: 30%;
+  padding: 0.5rem 0;
+}
 
    @media (max-width: 433px){
     .contactHeading img{
@@ -1197,44 +1239,14 @@ margin-top: 2rem;
           width: 100%;
          
         }
+         .formInputSection{
+          top:3900px;
+          flex-direction: column;
+         }
+      .contactFormImg{
+        width: 100%;
+      }
+     .contactformSection{
+      width: 100%;
+     }
     }
-.formInputSection{
-  /* border: 2px solid red; */
-  width: 100%;
-  position: absolute;
-  top:2400px;
-  display: flex;
-  flex-direction: row;
-  padding: 0 50px;
-}
-.contactFormImg{
-  /* border:2px solid black; */
-  width: 45%;
-  height: 500px;
-  background-color: rgb(198, 197, 197);
-  border-radius: 14px;
- 
-}
-.contactformSection{
-  /* border: 2px solid green; */
-  width: 55%;
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-  gap: 17px;
-  padding: 1rem;
-}
-.contactformSection input{
-  width: 100%;
-  height: 2.5rem;
-}
-.contactformSection textarea{
-
- min-width: 200px;
-max-height: 200px;
-
-}
-.contactformSection button{
-  width: 30%;
-  padding: 0.5rem 0;
-}
