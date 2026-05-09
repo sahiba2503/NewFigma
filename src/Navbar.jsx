@@ -30,7 +30,7 @@ function Navbar() {
         </div>
 
         <button style={{ background: "black", color: "white" }}>
-          Download Now
+          Download 
         </button>
       </div>
     </nav>
