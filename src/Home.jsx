@@ -10,6 +10,7 @@ import Footer from './Footer'
 
 function Home() {
   return (
+    <>
     <div className='Homepage'>
       <Welcome />
       <Boxes />
@@ -18,8 +19,10 @@ function Home() {
      <GroundBreaking />
      <LatestArticle />
      <SubscribeNew />
+            </div>
+             
      <Footer />
-        </div>
+        </>
   )
 }
 
