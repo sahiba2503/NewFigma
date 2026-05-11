@@ -7,13 +7,16 @@ import AboutFooter from './AboutFooter'
 
 function About() {
   return (
+    <>
        <div className='outerBorderAboutpage'>
         <AboutUsKvasition/>
         <AboutOurStory />
         <AboutOur />
         <AboutSubscribe/>
+          </div>
          <AboutFooter />
-       </div>
+     
+       </>
   )
 }
 
