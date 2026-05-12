@@ -5,12 +5,14 @@ import ContactMoreLikeThis from "./ContactMoreLikeThis";
 import FormContact from "./FormContact"
 function Contact() {
   return (
-    <div>      
+    
+    <div className='containerContact'>      
       < ContactGustav />
       < ContactFirstLast />
       < ContactMoreLikeThis />
      <FormContact />
     </div>
+  
   )
 }
 

@@ -194,8 +194,19 @@ justify-content: space-between;
    
     
 }
+.containerContact{
+  /* border:3px solid green; */
+  width: 100%;
+  position: absolute;
+  top:15vh;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 0 3rem;
+
+}
 .BlogContainer{
-  border: 3px solid blue;
+  /* border: 3px solid blue; */
   /* height: 500px; */
   height: 90vh;
   overflow: auto;
@@ -845,7 +856,7 @@ width: 100%;
 }
 
 .blogBodybordr{
-    border: 3px solid red;
+    /* border: 3px solid red; */
     width: 100%;
     /* position: absolute; */
     /* top:100px; */
@@ -926,7 +937,7 @@ width: 100%;
     margin: 0.5rem 0;
   }
   .blogArchiveHeading{
-    border: 3px solid black;
+    /* border: 3px solid black; */
     width: 100%;
     /* position: absolute;
     top:1020px; */
@@ -1031,6 +1042,7 @@ width: 100%;
   display: flex;
    justify-content: space-between;
   font-size: 21px;
+  word-break: break-all;
 }
 .contactHeading h1{
   width: 70%;
@@ -1064,9 +1076,7 @@ color:white;
    display: flex;
   flex-direction: column;
 gap: 24px;
-padding: 0 3rem;
-position: absolute;
-top:100px;
+
 }
 
   .contactBigImg{
@@ -1102,13 +1112,10 @@ top:100px;
   align-items: center;
  }
  .contactDetail{
-  /* border: 2px solid blue; */
-  position: absolute;
-  top:540px;
-  width: 100%;
+  /* border: 3px solid blue; */
+   width: 100%;
   display: flex;
   flex-direction: column;
-  padding:  0 3rem;
   gap: 24px;
  }
  .firstLastBtn{
@@ -1140,14 +1147,12 @@ margin-top: 2rem;
 
  }
  .MoreLIkeContainer{
-  /* border: 2px solid red; */
+  /* border: 3px solid red; */
   width: 100%;
-   position: absolute;
-  top:2000px;
-  display: flex;
+   display: flex;
   flex-direction: column;
   gap: 14px;
-  padding: 0 50px;
+  
  }
  .loremimg{
   /* border: 2px solid red; */
@@ -1176,12 +1181,9 @@ margin-top: 2rem;
  .formInputSection{
   /* border: 2px solid red; */
   width: 100%;
-  position: absolute;
-  top:2400px;
-  display: flex;
+   display: flex;
   flex-direction: row;
-  padding: 0 50px;
-}
+ }
 .contactFormImg{
   /* border:2px solid black; */
   width: 45%;
@@ -1218,6 +1220,9 @@ max-height: 200px;
     .contactHeading img{
       display: none;
     }
+    .contactHeading h1{
+  width: 100%;
+}
  
    .moreDetaiContact .logodetail{
     display: none;
@@ -1246,9 +1251,7 @@ max-height: 200px;
         color:white;
         border-radius: 5px;
        }
-       .MoreLIkeContainer{
-       top:2870px;
-       }
+      
         .sectionContainer{
           flex-direction: column;
            gap:24px;
@@ -1258,7 +1261,7 @@ max-height: 200px;
          
         }
          .formInputSection{
-          top:3900px;
+          /* top:3900px; */
           flex-direction: column;
          }
       .contactFormImg{
