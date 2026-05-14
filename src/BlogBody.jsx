@@ -2,9 +2,11 @@ import React from 'react'
 
 function BlogBody() {
   return (
+    <>
     <div className='blogBodybordr'>
         <h1>Blog Index</h1>
         <h4>Latest Article</h4>
+        </div>
          <div className='blogArticles'>
             <div className="blogLatestArticles">
                 <div className="latestArticlesImg"></div>
@@ -51,9 +53,9 @@ function BlogBody() {
                     </div>
                 </div>
             </div>
-        </div>
-       
-    </div>
+        </div>      
+    
+    </>
   )
 }
 

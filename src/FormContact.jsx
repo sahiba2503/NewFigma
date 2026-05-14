@@ -11,7 +11,7 @@ function FormContact() {
             <input type="text" placeholder='Email Address'/>
             <textarea name="" id="" placeholder='Message'></textarea>
             <input type="checkbox"  />
-            <button className='Send message'>Send message</button>
+            <button className='Sendmessage'>Send message</button>
         </div>
       
     </div>

@@ -105,13 +105,9 @@ display: none;
     display: flex;
     flex-direction: row;
     padding: 3% 7%;
-    /* position: absolute;
-    top:72px;
-    left: 0; */
-    /* overflow: hidden; */
-}
+   }
 .welcomImgContent{
-    /* border: 2px solid blue; */
+    border: 2px solid blue;
     /* height: 100%; */
     width:  100%;
     display: flex;
@@ -132,15 +128,13 @@ flex-direction: row;
  .iphon1 {
       width: 50%;
     height: 100%;
-    
-    /* position: absolute;
-    top: 50px; */
-    /* left: 230px; */
-    margin-top: 25%;
-    background-image: url('/Devices (5).svg');
-    background-size: cover;       /* 🔥 important */
+     background-image: url('/Devices (5).svg');
+    background-size: cover;      
     background-position: center;
     background-repeat: no-repeat;
+     margin-right: -5%;
+     z-index: 1;
+     margin-top: 35%;
 }
 
 .iphon2 {
@@ -150,6 +144,7 @@ flex-direction: row;
      background-image: url('/Devices (5).svg');
     background-size: cover;
     background-position: center;
+   
 }
 .welcomContent{
     /* border: 2px solid red; */
@@ -259,8 +254,9 @@ justify-content: space-between;
     background-color: rgb(206, 205, 205);
 }
 .strategyContent,.technologyCont{
+  border: 2px solid red;
      width: 53%;
-    height: 464px;
+    /* height: 464px; */
     display: flex;
     flex-direction: column;
     gap: 48px;
@@ -286,9 +282,9 @@ justify-content: space-between;
 }
 
 .outerArticle{
-  /* border: 2px solid black; */
+  border: 2px solid black;
      width: 100%;
-    height: 612px;
+    /* height: 612px; */
      display: flex;
     flex-direction: column;
     align-items: center;
@@ -305,12 +301,14 @@ justify-content: space-between;
     flex-direction: row;
     justify-content: space-between;
   } 
-  .Articles{   
+  .Articles{ 
+    border: 2px solid red;  
     width: 24%;
-    height: 420px;
+    /* height: 420px; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap:14px;
   } 
   .articleImg{
      background-color: rgb(212, 212, 212);
@@ -319,23 +317,23 @@ justify-content: space-between;
     height: 316px;
   }
 .borSubscribe{
-  /* border: 2px solid red; */
+  border: 2px solid red;
      width: 100%;
       display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2rem 3rem;
 }
 .subscribeNew{
      width: 100%;
-    height: 236px;
+    /* height: 236px; */
     background-color: rgb(218, 216, 216);
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    animation: left;
-    gap: 24px;
-    padding: 0 3rem;
+     gap: 24px;
+    padding:  3rem;
 }
 .subscribeNew button{
     width: 136px;
@@ -423,29 +421,27 @@ z-index: 1;
         display: flex;
     }
 
-    .welcomImgContent{
+    /* .welcomImgContent{
         display: block;
         
-    }
+    } */
  
        .welcomContent{
         width: 100%;
     }
     .outer-main{
-        top:48px;
+        /* top:48px; */
        padding: 0;
     }
    
     .iphoneImage{
         /* border: 5px solid black; */
-        margin-top:40%;
         height: 400px;
         width: 100%;
-       position: relative;
-    }
+           }
 
     .fourBoxes{
-         top:670px;
+         /* top:670px; */
     }
     .managementSection{
         /* border: 2px solid black; */
@@ -453,7 +449,7 @@ z-index: 1;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        top:840px;
+        /* top:840px; */
     }
     .managementSection div {
          font-size: 30px;
@@ -462,8 +458,8 @@ z-index: 1;
     .StrategySec{
         /* border: 2px solid black; */
          padding: 24px 43px;
-          height: 572px;
-        top:1270px;
+          /* height: 572px; */
+        /* top:1270px; */
     }
     .strImgCon, .TecImgCon{
           display: block;
@@ -473,26 +469,25 @@ z-index: 1;
         height: 224px;
     }
     .strategyContent,.technologyCont{
-        height: 265px;
+      border: 2px solid blue;
+        /* height: 265px; */
         width: 100%;
           padding: 24px 43px;
     }
-    .strategyContent h1{
-        margin-top: 90px;
-    }
+   
     .technologyCont button{
         margin-bottom: 50px;
     }
 
      .TechnologyContent{  
         /* border: 2px solid red;     */
-           top:1870px;
+           /* top:1870px; */
           
           padding: 24px 43px;
      }
 .graoundBreaking{
     /* border:2px solid red; */
-    top:2426px;
+    /* top:2426px; */
     height: 600px;
     padding: 24px 43px;
 }
@@ -501,15 +496,16 @@ display: none;
 }
 
 .borSubscribe{
-  top:3098px; 
+  /* top:3098px;  */
   text-align: center;  
-  height: 305px;
+  /* height: 305px; */
+  /* padding: 0; */
 }
 .borSubscribe button{
     width: 100%;
 }
 .BorderFooter{
-    top:3400px;
+    /* top:3400px; */
 }
 .fourBoxes{
    gap:0;
@@ -540,21 +536,16 @@ display: none;
     font-size: 20px;
     text-align: center;
     height: 136px;
-    position: absolute;
-    top:0px;
-}
+  }
 .WelcomeLorem{
     /* border: 2px solid red; */
     background-color: white;
     display: none;
     }
  .iphon1 {
-    width: 83%;
-    height: 100%;
-    position: absolute;
-    top: 0px;
-    left: 29%;
-   background-size: cover;
+  width: 75%;
+    height: 70%;
+     background-size: cover;
     background-position: center;
   
 }
@@ -562,9 +553,6 @@ display: none;
 .iphon2 {
     width: 75%;
     height: 70%;
-    position: absolute;
-    top: 120px;
-    left: -30px;
     background-size: cover;
     background-position: center;
 }
@@ -599,7 +587,7 @@ display: none;
  .AboutContent{
     /* border: 2px solid green; */
      width: 35%;
-    height: 672px;
+    /* height: 672px; */
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -640,7 +628,7 @@ display: none;
  .aboutheading{
     /* border: 2px solid blue; */
      width: 100%;
-    height: 268px;
+    /* height: 268px; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -655,7 +643,7 @@ display: none;
     list-style: none;
     /* border: 2px solid red; */
       width: 100%;
-    height: 146px;
+    /* height: 146px; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -665,9 +653,10 @@ display: none;
         
     }
     .aboutOurStory{
-        /* border: 2px solid red; */
+        border: 2px solid red;
+        box-sizing: border-box;
         width: 100%;
-        height: 752px;
+        /* height: 752px; */
         display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -675,15 +664,15 @@ display: none;
     .storyHeading{
         /* border: 2px solid blue; */
           width: 32%;
-        height: 70px;
+        /* height: 70px; */
         font-size: 35px;
         text-align: right;
 
     }
 .storyDetail{
-    /* border: 2px solid black; */
+    border: 2px solid black;
       width: 39%;
-    height: 616px;
+    /* height: 616px; */
   
 }
 .aboutOurTeam{
@@ -804,12 +793,12 @@ display: none;
   .aboutOurStory{
     /* border: 2px solid black; */
     /* top:1500px; */
-    padding: 0 5%;
+    /* padding: 0 5%; */
     margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 1000px;
+    /* height: 1000px; */
   }
   .storyHeading{
     /* border: 2px solid red; */
@@ -819,7 +808,7 @@ display: none;
   .storyDetail{
     /* border: 2px solid black; */
     width: 100%;
-    height: 850px;
+    /* height: 850px; */
   }
   .aboutOurTeam{
     /* border: 2px solid blue; */
@@ -858,18 +847,17 @@ width: 100%;
 .blogBodybordr{
     /* border: 3px solid red; */
     width: 100%;
-    /* position: absolute; */
-    /* top:100px; */
-     /* padding: 0px 70px; */
-}
+    }
 .blogArticles{
-    /* border: 5px solid yellowgreen; */
-    display: flex;
-    justify-content: space-between;
+    border: 5px solid yellowgreen;
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     
 }
 .blogLatestArticles{
-    /* border:5px solid black; */
-    width: 49%;
+    border:5px solid black;
+    width: 50%;
    }
    .latestArticlesImg{
     /* border: 2px solid blue; */
@@ -881,7 +869,7 @@ width: 100%;
    }
    .latestArticlesDetail{
     /* border: 2px solid red; */
-    height: 400px;
+    /* height: 400px; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -900,8 +888,8 @@ width: 100%;
     margin: 1rem 0;
   }
   .blogGustav{
-    /* border: 5px solid green; */
-    width: 49%;
+    border: 5px solid green;
+    width: 50%;
      }
   .gustavchip1{
     /* border: 2px solid red; */
@@ -939,9 +927,7 @@ width: 100%;
   .blogArchiveHeading{
     /* border: 3px solid black; */
     width: 100%;
-    /* position: absolute;
-    top:1020px; */
-    display: flex;
+     display: flex;
     flex-direction: column;
     gap: 27px;
     /* padding: 0 70px; */
@@ -999,27 +985,17 @@ width: 100%;
   @media (max-width: 450x){
     .blogArchiveHeading{
       display: none;
+      visibility: hidden;
       
     }
    .blogBodybordr {
     padding: 0 5%;
       /* top:60px;   */
    }
-   .blogArticles{
-    display: block;
-
-   }
-  .blogLatestArticles {
-width: 100%;
-/* height: 750px; */
-  } 
-  .latestArticlesDetail{
-    height: 440px;
+   .latestArticlesDetail{
+    /* height: 440px; */
   }
-   .blogGustav{
-    width: 100%;
    
-   }
    .blogGustav p{
     display: none;
    }
@@ -1279,4 +1255,22 @@ max-height: 200px;
      .footerLogos{
       justify-content: center;
      }
+     .labelbtn{
+      /* margin-top: -30px;
+      margin-bottom: 90px; */
+      
+     }
+     .blogArticles{
+    border: 5px solid yellowgreen;
+     /* width: 100%;
+     display: flex; */
+     flex-direction: column;
+     
+}
+.blogLatestArticles{
+  width: 100%;
+}
+.blogGustav{
+  width: 100%;
+}
     }
