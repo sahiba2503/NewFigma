@@ -10,8 +10,7 @@ function AboutOur() {
        <div className="ourTeamBranches">
         <div className="TwooutrTeambr">
         <div className="ourTeambox">
-            <div className="branchephoto">
-             
+            <div className="branchephoto">            
             </div>
             <div className="aboutBranchDetail">
             <h4>First Last</h4>

@@ -12,9 +12,9 @@ function BlogBody() {
                 <div className="latestArticlesImg"></div>
                  <div className="latestArticlesDetail">
                     <b>latest article</b>
-                    <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus libero eos nostrum beatae unde veniam eaque, cum necessitatibus molestias voluptatem, aliquam quos repellat deserunt vel consequuntur id accusamus! A, exercitationem!</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias mollitia placeat ex at. Labore, sunt doloremque libero architecto numquam iusto. Voluptatibus quam in non consectetur eos sit ullam explicabo natus.
-                    Quae error eum velit quisquam expedita aliquam animi cumque vero dolorem magnam aspernatur tempora quibusdam enim sit, vitae dolorum non amet iste, nisi quis quia illo accusantium architecto quos. Nobis?</p>
+                    <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quae error eum velit quisquam expedita aliquam animi cumque nisi quis quia illo accusantium architecto quos. Nobis?</p>
                     <div className="blogIndexThreebtn">
                         <button>Clip</button>
                         <button>Clip</button>
@@ -30,7 +30,7 @@ function BlogBody() {
                     <div className="gustavchipDetail">
                         <h4>heading </h4>
                         <h3>Lorem ipsum dolor  adipisicing elit. Excepturi rerum</h3>
-                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. laudantium dolore, </p>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                      <button> Chip</button>
                     </div>
                 </div>

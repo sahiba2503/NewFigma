@@ -10,7 +10,7 @@ function ContactFirstLast() {
             <div className='logofirstLast'></div>
             <div>
             <h3>First Last</h3>
-            <strong>SOURCE-DD/MM/YYYY</strong>
+            <h5>SOURCE-DD/MM/YYYY</h5>
             </div>
         </div>
         <div className='firstLastBtn'>
