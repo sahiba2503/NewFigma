@@ -1153,6 +1153,15 @@ margin-top: 2rem;
    display: flex;
   flex-direction: row;
  }
+ .checkboxContent{
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+ 
+ }
+ 
 .contactFormImg{
   /* border:2px solid black; */
   width: 45%;

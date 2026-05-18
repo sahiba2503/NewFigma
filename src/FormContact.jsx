@@ -17,7 +17,9 @@ function FormContact() {
             <input type="text" placeholder='Email Address'/>
             </div>
             <textarea name="" id="" placeholder='Message'></textarea>
+            <div className="checkboxContent">
             <input type="checkbox"  />
+            <p>Keep me up to date and news and events</p></div>
             <button className='Sendmessage'>Send message</button>
         </div>
       
