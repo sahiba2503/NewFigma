@@ -113,44 +113,49 @@ display: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-     overflow: hidden;
+    
 }
 .iphoneImage{
     /* border: 2px solid red; */
     width: 55%;
-    display: flex;
-flex-direction: row;
-
-    
+    position: relative;
+    height: 320px;
+     overflow: hidden;
 }
 
 
  .iphon1 {
-      width: 50%;
-    height: 100%;
+  /* border: 2px solid green; */
+  width: 65%;
+  height: 100%;
      background-image: url('/Devices (5).svg');
-    background-size: cover;      
+    background-size: contain;      
     background-position: center;
     background-repeat: no-repeat;
-     margin-right: -5%;
      z-index: 1;
-     margin-top: 35%;
-}
+     position: absolute;
+     top:30%;
+     left: 0px;
+   }
 
 .iphon2 {
-    width: 50%;
+  /* border: 2px solid blue; */
+   width: 65%;
     height: 100%;
-    /* border: 2px solid black; */
      background-image: url('/Devices (5).svg');
-    background-size: cover;
+    background-size: contain;      
     background-position: center;
+    background-repeat: no-repeat;
+   
+    position: absolute;
+     top:0px;
+     right: 0px;
    
 }
 .welcomContent{
     /* border: 2px solid red; */
     width: 40%;
-     /* height: 464px; */
-    gap: 24px;
+       gap: 24px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -430,6 +435,7 @@ z-index: 1;
     }
     .outer-main{
         /* top:48px; */
+        
        padding: 0;
     }
    
@@ -517,7 +523,8 @@ display: none;
  .welcomImgContent{
      width: 100%;
     height: 550px;
-    overflow: hidden;
+    /* overflow: hidden; */
+    display: block;
  }
 .welcometoWhere{
     width: 100%;
@@ -530,20 +537,9 @@ display: none;
     background-color: white;
     display: none;
     }
- .iphon1 {
-  width: 75%;
-    height: 70%;
-     background-size: cover;
-    background-position: center;
-  
-}
 
-.iphon2 {
-    width: 75%;
-    height: 70%;
-    background-size: cover;
-    background-position: center;
-}
+
+
 .outer-welcom-btn{
     width: 100%;
     display: flex;
