@@ -24,7 +24,7 @@ function Navbar() {
       </div>
 
       <div className='logo-btn'>
-        <div>
+        <div className='naveoutlinelogo'>
           <img src={logo} alt="logo" className='rectangularLogo' />
           <img src={square} alt="logo" className='squareLogo' />
         </div>

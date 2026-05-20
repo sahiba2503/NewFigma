@@ -34,7 +34,8 @@ nav{
    }
 
 nav .navList{
-     width: 30%;
+  /* border: 2px solid black; */
+     width: 35%;
 }
 nav ul{
      width: 90%;
@@ -81,21 +82,31 @@ nav button{
 display: none;
 }
 .logo-btn{
+
      width: 55%;
     display: flex;
    flex-direction: row;
    justify-content: space-between;
    align-items: center;
+   box-sizing: border-box;
+  
 }
-/* ............... */
-.subscribe-btn{
-    width: 130px;
-    height: 40px;
-    background-color: black;
+.logo-btn .naveoutlinelogo{
+ 
+  width: 40%;
+  
+
+}
+
+.logo-btn .subscribe-btn{
+   width: 40%;
+   background-color: black;
     color: white;
     border: none;
     border-radius: 5px;
 }
+/* ............... */
+
 
 .mobile-text{
     display: none;
@@ -1013,10 +1024,7 @@ width: 100%;
    .NaveBar{
     padding: 1rem;
    }
-  /* .subscribe-btn span{
-    background-color: black;
-    color:white;
-  } */
+
   
 }
 .contactHeading{
