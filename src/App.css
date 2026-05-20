@@ -87,6 +87,23 @@ display: none;
    justify-content: space-between;
    align-items: center;
 }
+/* ............... */
+.subscribe-btn{
+    width: 130px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.mobile-text{
+    display: none;
+}
+
+/* Mobile screen */
+
+/* .................. */
 .Homepage{
   /* border: 2px solid green; */
   display: flex;
@@ -996,10 +1013,10 @@ width: 100%;
    .NaveBar{
     padding: 1rem;
    }
-   .logo-btn button{
-    font-size: 9px;
-      padding: 0;
-   }
+  /* .subscribe-btn span{
+    background-color: black;
+    color:white;
+  } */
   
 }
 .contactHeading{
@@ -1283,4 +1300,15 @@ height: 200px;
   .blogArchiveHeading{     
     display: none;
   }
+   .subscribe-btn{
+        width: 140px;
+    }
+
+    .desktop-text{
+        display: none;
+    }
+
+    .mobile-text{
+        display: inline;
+    }
     }

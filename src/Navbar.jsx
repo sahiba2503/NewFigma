@@ -28,10 +28,12 @@ function Navbar() {
           <img src={logo} alt="logo" className='rectangularLogo' />
           <img src={square} alt="logo" className='squareLogo' />
         </div>
-
-        <button style={{ background: "black", color: "white" }}>
-          Download 
-        </button>
+            
+              <button className="subscribe-btn">
+      <span className="desktop-text">Download Now</span>
+      <span className="mobile-text">Download</span>
+    </button>
+      
       </div>
     </nav>
   )
