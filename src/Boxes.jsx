@@ -3,12 +3,7 @@ import React from 'react'
 function Boxes() {
   return (
     <>
-    <div className='fourBoxes'>
-        <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-    </div>
+   
     <div className='managementSection'>
         <div>
             <h2>+500m</h2>            

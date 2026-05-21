@@ -82,7 +82,6 @@ nav button{
 display: none;
 }
 .logo-btn{
-
      width: 55%;
     display: flex;
    flex-direction: row;
@@ -92,9 +91,7 @@ display: none;
   
 }
 .logo-btn .naveoutlinelogo{
- 
-  width: 40%;
-  
+   width: 40%;  
 
 }
 
@@ -105,16 +102,13 @@ display: none;
     border: none;
     border-radius: 5px;
 }
-/* ............... */
 
 
 .mobile-text{
     display: none;
 }
 
-/* Mobile screen */
 
-/* .................. */
 .Homepage{
   /* border: 2px solid green; */
   display: flex;
@@ -131,13 +125,12 @@ display: none;
      width: 100%;
     /* height: 622px; */
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 3% 7%;
    }
 .welcomImgContent{
     /* border: 2px solid blue; */
-    /* height: 100%; */
-    width:  100%;
+     width:  100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -192,6 +185,10 @@ display: none;
 .welcometoWhere h1{
   font-size: 45px;
 }
+.welcomeMobileScreen{
+  text-align: center;
+  display: none;
+ }
 .welcomTo h1{
     font-size: 3.5rem;
 }
@@ -273,6 +270,7 @@ justify-content: space-between;
     justify-content: center;
     align-items: center;
 }
+
 .StrategySec{
      width: 100%;
      /* padding:32px 104px 88px 104px; */
@@ -460,17 +458,20 @@ z-index: 1;
  
        .welcomContent{
         width: 100%;
+        padding: 0 1.5rem;
     }
     .outer-main{
         /* top:48px; */
         
        padding: 0;
+       flex-direction: column-reverse;
     }
    
     .iphoneImage{
         /* border: 5px solid black; */
-        height: 400px;
+        height: 300px;
         width: 100%;
+        margin-bottom: 1rem;
            }
 
       .managementSection{
@@ -487,7 +488,7 @@ z-index: 1;
     }
     .StrategySec{
         /* border: 2px solid black; */
-         padding: 24px 43px;
+         padding: 1rem;
         
     }
     .strImgCon, .TecImgCon{
@@ -510,18 +511,18 @@ z-index: 1;
 
      .TechnologyContent{ 
                
-          padding: 24px 43px;
+          padding: 1rem;
      }
 .graoundBreaking{
     height: 600px;
-    padding: 24px 43px;
+    padding: 1rem;
 }
 .outerArticle{
 display: none;
 }
 
 .borSubscribe{
-  /* top:3098px;  */
+ padding: 1rem;
   text-align: center;  
 
 }
@@ -550,20 +551,20 @@ display: none;
 
  .welcomImgContent{
      width: 100%;
-    height: 550px;
-    /* overflow: hidden; */
     display: block;
+    margin-bottom: 3rem;
  }
 .welcometoWhere{
+  border: 2px solid blue;
     width: 100%;
     font-size: 20px;
     text-align: center;
-    height: 136px;
+   display: none;
   }
 .WelcomeLorem{
     /* border: 2px solid red; */
     background-color: white;
-    display: none;
+  
     }
 
 
@@ -1319,4 +1320,12 @@ height: 200px;
     .mobile-text{
         display: inline;
     }
+    .welcomeMobileScreen{
+  text-align: center;
+  display: inline;
+  margin-top: 2rem;
+ }
+ .managementSection div p{
+  font-size: 1.5rem;
+ }
     }

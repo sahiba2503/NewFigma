@@ -27,6 +27,17 @@ function Welcome() {
         </div>
         </div>
     </div>
+    <div className='welcomeMobileScreen'>
+        <span>Welcome To</span>
+        <h1>
+        Where innovation meets tomorrow</h1>
+        </div>
+     <div className='fourBoxes'>
+        <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
     </div>
   )
 }
