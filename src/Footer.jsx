@@ -26,7 +26,7 @@ function Footer() {
       <hr />
       <div className='footerLinks'>
 
-        <div>2023 outlined wireframe kit</div>
+        <div className='footeroutlined'>2023 outlined wireframe kit</div>
         <div className='FLinks'>
             <div>Privacy & Policy</div>
             <div>Terms & Conditions</div>

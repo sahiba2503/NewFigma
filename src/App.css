@@ -1328,4 +1328,16 @@ height: 200px;
  .managementSection div p{
   font-size: 1.5rem;
  }
+ .footerLinks{
+  border: 2px solid green;
+  width: 100%;
+  flex-direction: column;
+ }
+  .footerLinks.footeroutlined{
+    border: 2px solid red;
+    width: 100%;
+  }
+  .footerLinks.FLinks{
+    width: 100%;
+  }
     }
